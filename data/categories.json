@@ -1,0 +1,22 @@
+[
+  {
+    "id": "weather",
+    "name": "Weather",
+    "createdDate": "2020-11-29"
+  },
+  {
+    "id": "animals",
+    "name": "Animals",
+    "createdDate": "2020-11-29"
+  },
+  {
+    "id": "room",
+    "name": "Room",
+    "createdDate": "2020-12-06"
+  },
+  {
+    "id": "professions",
+    "name": "professions",
+    "createdDate": "2020-12-06"
+  }
+]

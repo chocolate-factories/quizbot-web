@@ -1,0 +1,651 @@
+[
+  {
+    "id": 1,
+    "EN": "What's the weather like today?",
+    "ES": "¿Qué tiempo hace hoy?",
+    "categoryId": "weather"
+  },
+  {
+    "id": 2,
+    "EN": "It is cold",
+    "ES": "Hace frío",
+    "categoryId": "weather"
+  },
+  {
+    "id": 3,
+    "EN": "It is hot",
+    "ES": "Hace calor",
+    "categoryId": "weather"
+  },
+  {
+    "id": 4,
+    "EN": "It is windy",
+    "ES": "Hace viento",
+    "categoryId": "weather"
+  },
+  {
+    "id": 5,
+    "EN": "It is sunny",
+    "ES": "Hace sol / Está soleado",
+    "categoryId": "weather"
+  },
+  {
+    "id": 6,
+    "EN": "It is 25 degrees",
+    "ES": "Hace 25 grados",
+    "categoryId": "weather"
+  },
+  {
+    "id": 7,
+    "EN": "It is cloudy",
+    "ES": "Está nublado",
+    "categoryId": "weather"
+  },
+  {
+    "id": 8,
+    "EN": "There are clear skies",
+    "ES": "Está despejado",
+    "categoryId": "weather"
+  },
+  {
+    "id": 9,
+    "EN": "It is raining",
+    "ES": "Está lloviendo",
+    "categoryId": "weather"
+  },
+  {
+    "id": 10,
+    "EN": "It is snowing",
+    "ES": "Está nevando",
+    "categoryId": "weather"
+  },
+  {
+    "id": 11,
+    "EN": "There is fog",
+    "ES": "Hay niebla",
+    "categoryId": "weather",
+    "isUsed": true
+  },
+  {
+    "id": 12,
+    "EN": "There is lightning",
+    "ES": "Hay relámpagos",
+    "categoryId": "weather"
+  },
+  {
+    "id": 13,
+    "EN": "There is a storm",
+    "ES": "Hay tormenta",
+    "categoryId": "weather"
+  },
+  {
+    "id": 14,
+    "EN": "There is thunder",
+    "ES": "Hay truenos",
+    "categoryId": "weather"
+  },
+  {
+    "id": 15,
+    "EN": "There is a rainbow",
+    "ES": "Hay un arcoíris",
+    "categoryId": "weather"
+  },
+  {
+    "id": 16,
+    "EN": "The temperature is low",
+    "ES": "Las temperaturas son bajas",
+    "categoryId": "weather"
+  },
+  {
+    "id": 17,
+    "EN": "The temperature is moderate",
+    "ES": "Las temperaturas son moderadas",
+    "categoryId": "weather"
+  },
+  {
+    "id": 18,
+    "EN": "The temperature is high",
+    "ES": "Las temperaturas son altas",
+    "categoryId": "weather"
+  },
+  {
+    "id": 19,
+    "EN": "cat",
+    "ES": "el gato / la gata",
+    "categoryId": "animals"
+  },
+  {
+    "id": 20,
+    "EN": "dog",
+    "ES": "el perro / la perra",
+    "categoryId": "animals"
+  },
+  {
+    "id": 21,
+    "EN": "horse",
+    "ES": "el caballo",
+    "categoryId": "animals"
+  },
+  {
+    "id": 22,
+    "EN": "mare",
+    "ES": "la yegua",
+    "categoryId": "animals"
+  },
+  {
+    "id": 23,
+    "EN": "bear",
+    "ES": "el oso / la osa",
+    "categoryId": "animals"
+  },
+  {
+    "id": 24,
+    "EN": "monkey",
+    "ES": "el mono / la mona",
+    "categoryId": "animals"
+  },
+  {
+    "id": 25,
+    "EN": "bull",
+    "ES": "el toro",
+    "categoryId": "animals"
+  },
+  {
+    "id": 26,
+    "EN": "cow",
+    "ES": "la vaca",
+    "categoryId": "animals"
+  },
+  {
+    "id": 27,
+    "EN": "ram",
+    "ES": "el carnero",
+    "categoryId": "animals"
+  },
+  {
+    "id": 28,
+    "EN": "sheep",
+    "ES": "la oveja",
+    "categoryId": "animals"
+  },
+  {
+    "id": 29,
+    "EN": "donkey",
+    "ES": "el burro / la burra",
+    "categoryId": "animals"
+  },
+  {
+    "id": 30,
+    "EN": "giraffe",
+    "ES": "la jirafa",
+    "categoryId": "animals"
+  },
+  {
+    "id": 31,
+    "EN": "elephant",
+    "ES": "el elefante / la elefanta",
+    "categoryId": "animals"
+  },
+  {
+    "id": 32,
+    "EN": "pig",
+    "ES": "el cerdo / la cerda",
+    "categoryId": "animals"
+  },
+  {
+    "id": 33,
+    "EN": "calf",
+    "ES": "el ternero / la ternera",
+    "categoryId": "animals"
+  },
+  {
+    "id": 34,
+    "EN": "cock",
+    "ES": "el gallo",
+    "categoryId": "animals"
+  },
+  {
+    "id": 35,
+    "EN": "hen",
+    "ES": "la gallina",
+    "categoryId": "animals"
+  },
+  {
+    "id": 36,
+    "EN": "chicken",
+    "ES": "el pollo",
+    "categoryId": "animals"
+  },
+  {
+    "id": 37,
+    "EN": "sad chicken",
+    "ES": "el pollo triste",
+    "categoryId": "animals"
+  },
+  {
+    "id": 38,
+    "EN": "happy chicken",
+    "ES": "el pollo feliz",
+    "categoryId": "animals"
+  },
+  {
+    "id": 39,
+    "EN": "spider",
+    "ES": "la araña",
+    "categoryId": "animals"
+  },
+  {
+    "id": 40,
+    "EN": "mouse",
+    "ES": "el ratón",
+    "categoryId": "animals"
+  },
+  {
+    "id": 41,
+    "EN": "rat",
+    "ES": "el rato / la rata",
+    "categoryId": "animals"
+  },
+  {
+    "id": 42,
+    "EN": "frog",
+    "ES": "la rana",
+    "categoryId": "animals"
+  },
+  {
+    "id": 43,
+    "EN": "bird",
+    "ES": "el pájaro",
+    "categoryId": "animals"
+  },
+  {
+    "id": 44,
+    "EN": "fly",
+    "ES": "la mosca",
+    "categoryId": "animals"
+  },
+  {
+    "id": 45,
+    "EN": "fish",
+    "ES": "el pescado",
+    "categoryId": "animals"
+  },
+  {
+    "id": 46,
+    "EN": "turtle",
+    "ES": "la tortuga",
+    "categoryId": "animals"
+  },
+  {
+    "id": 47,
+    "EN": "whale",
+    "ES": "la ballena",
+    "categoryId": "animals"
+  },
+  {
+    "id": 48,
+    "EN": "dolphin",
+    "ES": "el delfín",
+    "categoryId": "animals"
+  },
+  {
+    "id": 49,
+    "EN": "crab",
+    "ES": "el cangrejo",
+    "categoryId": "animals"
+  },
+  {
+    "id": 50,
+    "EN": "shark",
+    "ES": "el tiburón",
+    "categoryId": "animals"
+  },
+  {
+    "id": 51,
+    "EN": "room",
+    "ES": "la habitación",
+    "categoryId": "room"
+  },
+  {
+    "id": 52,
+    "EN": "bed",
+    "ES": "la cama",
+    "categoryId": "room"
+  },
+  {
+    "id": 53,
+    "EN": "curtains",
+    "ES": "las cortinas",
+    "categoryId": "room"
+  },
+  {
+    "id": 54,
+    "EN": "poster",
+    "ES": "el póster",
+    "categoryId": "room"
+  },
+  {
+    "id": 55,
+    "EN": "mirror",
+    "ES": "el espejo",
+    "categoryId": "room"
+  },
+  {
+    "id": 56,
+    "EN": "desk",
+    "ES": "el escritorio",
+    "categoryId": "room"
+  },
+  {
+    "id": 57,
+    "EN": "computer",
+    "ES": "el ordenador",
+    "categoryId": "room"
+  },
+  {
+    "id": 58,
+    "EN": "chair",
+    "ES": "la silla",
+    "categoryId": "room"
+  },
+  {
+    "id": 59,
+    "EN": "table",
+    "ES": "la mesa",
+    "categoryId": "room"
+  },
+  {
+    "id": 60,
+    "EN": "chest of drawers",
+    "ES": "la cómoda",
+    "categoryId": "room"
+  },
+  {
+    "id": 61,
+    "EN": "wardrobe",
+    "ES": "el armario",
+    "categoryId": "room"
+  },
+  {
+    "id": 62,
+    "EN": "lamp",
+    "ES": "la lámpara",
+    "categoryId": "room"
+  },
+  {
+    "id": 63,
+    "EN": "shelf",
+    "ES": "la estantería",
+    "categoryId": "room"
+  },
+  {
+    "id": 64,
+    "EN": "pillow",
+    "ES": "la almohada",
+    "categoryId": "room"
+  },
+  {
+    "id": 65,
+    "EN": "sheet",
+    "ES": "la sábana",
+    "categoryId": "room"
+  },
+  {
+    "id": 66,
+    "EN": "blanket",
+    "ES": "la manta",
+    "categoryId": "room"
+  },
+  {
+    "id": 67,
+    "EN": "bedcover",
+    "ES": "la colcha",
+    "categoryId": "room"
+  },
+  {
+    "id": 68,
+    "EN": "duvet",
+    "ES": "el edredón",
+    "categoryId": "room"
+  },
+  {
+    "id": 69,
+    "EN": "pillowcase",
+    "ES": "la funda de almohada",
+    "categoryId": "room"
+  },
+  {
+    "id": 70,
+    "EN": "duvet cover",
+    "ES": "la funda nórdica",
+    "categoryId": "room"
+  },
+  {
+    "id": 71,
+    "EN": "bedside table",
+    "ES": "la mesita de noche",
+    "categoryId": "room"
+  },
+  {
+    "id": 72,
+    "EN": "rug",
+    "ES": "la alfombra",
+    "categoryId": "room"
+  },
+  {
+    "id": 73,
+    "EN": "carpet",
+    "ES": "la moqueta",
+    "categoryId": "room"
+  },
+  {
+    "id": 74,
+    "EN": "window",
+    "ES": "la ventana",
+    "categoryId": "room"
+  },
+  {
+    "id": 75,
+    "EN": "door",
+    "ES": "la puerta",
+    "categoryId": "room"
+  },
+  {
+    "id": 76,
+    "EN": "wall",
+    "ES": "la pared",
+    "categoryId": "room"
+  },
+  {
+    "id": 77,
+    "EN": "floor",
+    "ES": "el suelo",
+    "categoryId": "room"
+  },
+  {
+    "id": 78,
+    "EN": "ceiling",
+    "ES": "el techo",
+    "categoryId": "room"
+  },
+  {
+    "id": 79,
+    "EN": "roof",
+    "ES": "el tejado",
+    "categoryId": "room"
+  },
+  {
+    "id": 80,
+    "EN": "cook",
+    "ES": "el cocinero / la cocinera",
+    "categoryId": "professions"
+  },
+  {
+    "id": 81,
+    "EN": "waiter / waitress",
+    "ES": "el camarero / la camarera",
+    "categoryId": "professions"
+  },
+  {
+    "id": 82,
+    "EN": "lawyer",
+    "ES": "el abogado / la abogada",
+    "categoryId": "professions"
+  },
+  {
+    "id": 83,
+    "EN": "architect",
+    "ES": "el arquitecto / la arquitecta",
+    "categoryId": "professions"
+  },
+  {
+    "id": 84,
+    "EN": "doctor",
+    "ES": "el médico / la médica",
+    "categoryId": "professions"
+  },
+  {
+    "id": 85,
+    "EN": "nurse",
+    "ES": "el enfermero / la enfermera",
+    "categoryId": "professions"
+  },
+  {
+    "id": 86,
+    "EN": "teacher",
+    "ES": "el profesor / la profesora",
+    "categoryId": "professions"
+  },
+  {
+    "id": 87,
+    "EN": "firefighter",
+    "ES": "el bombero / la bombera",
+    "categoryId": "professions"
+  },
+  {
+    "id": 88,
+    "EN": "minister",
+    "ES": "el ministro / la ministra",
+    "categoryId": "professions"
+  },
+  {
+    "id": 89,
+    "EN": "carpenter",
+    "ES": "el carpintero / la carpintera",
+    "categoryId": "professions"
+  },
+  {
+    "id": 90,
+    "EN": "gardener",
+    "ES": "el jardinero / la jardinera",
+    "categoryId": "professions"
+  },
+  {
+    "id": 91,
+    "EN": "postman",
+    "ES": "el cartero / la cartera",
+    "categoryId": "professions"
+  },
+  {
+    "id": 92,
+    "EN": "administrator",
+    "ES": "el administrativo / la administrativa",
+    "categoryId": "professions"
+  },
+  {
+    "id": 93,
+    "EN": "butcher",
+    "ES": "el carnicero / la carnicera",
+    "categoryId": "professions"
+  },
+  {
+    "id": 94,
+    "EN": "plumber",
+    "ES": "el fontanero / la fontanera",
+    "categoryId": "professions"
+  },
+  {
+    "id": 95,
+    "EN": "hairdresser",
+    "ES": "el peluquero / la peluquera",
+    "categoryId": "professions"
+  },
+  {
+    "id": 96,
+    "EN": "salesman",
+    "ES": "el vendedor / la vendedora",
+    "categoryId": "professions"
+  },
+  {
+    "id": 97,
+    "EN": "manager",
+    "ES": "el director / la directora",
+    "categoryId": "professions"
+  },
+  {
+    "id": 98,
+    "EN": "painter",
+    "ES": "el pintor / la pintora",
+    "categoryId": "professions"
+  },
+  {
+    "id": 99,
+    "EN": "writer",
+    "ES": "el escritor / la escritora",
+    "categoryId": "professions"
+  },
+  {
+    "id": 100,
+    "EN": "dentist",
+    "ES": "el dentista / la dentista",
+    "categoryId": "professions"
+  },
+  {
+    "id": 101,
+    "EN": "electrician",
+    "ES": "el electricista / la electricista",
+    "categoryId": "professions"
+  },
+  {
+    "id": 102,
+    "EN": "boss",
+    "ES": "el jefe / la jefa",
+    "categoryId": "professions"
+  },
+  {
+    "id": 103,
+    "EN": "shop assistant",
+    "ES": "el dependiente / la dependienta",
+    "categoryId": "professions"
+  },
+  {
+    "id": 104,
+    "EN": "dancer",
+    "ES": "el bailarín / la bailarina",
+    "categoryId": "professions"
+  },
+  {
+    "id": 105,
+    "EN": "engineer",
+    "ES": "el ingeniero / la ingeniera",
+    "categoryId": "professions"
+  },
+  {
+    "id": 106,
+    "EN": "programmer",
+    "ES": "el programador / la programadora",
+    "categoryId": "professions"
+  },
+  {
+    "id": 107,
+    "EN": "driver",
+    "ES": "el conductor / la conductora",
+    "categoryId": "professions"
+  },
+  {
+    "id": 108,
+    "EN": "designer",
+    "ES": "el diseñador / la diseñadora",
+    "categoryId": "professions"
+  }
+]
