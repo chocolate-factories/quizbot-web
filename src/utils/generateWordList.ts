@@ -1,6 +1,13 @@
 import vocabularies from '../data/vocabularies.json'
 import { VocabEntry } from '../types'
 
+/**
+ * Generates a set number of words from the vocabularies.
+ * @param numberOfWords number of words to generate.
+ * @param categories defaults to empty list. If a list of categories is provided, only generates words from those categories. Otherwise,
+ * generates from the whole vocabulary.
+ * @param forbiddenWords defaults to empty list. If a list of words is provided, those words will not be generated.
+ */
 const generateWordList = (numberOfWords: number, categories: string[] = [], forbiddenWords: VocabEntry[] = []): VocabEntry[] => {
   const generatedWords = [];
   // Deep copy, otherwise we will delete from vocabularies.
