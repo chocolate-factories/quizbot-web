@@ -10,7 +10,7 @@ import {
 import { getCategories } from '../services/categoryService';
 import { Category, LanguageChoice } from '../types';
 
-const QuizInfoSelectForm: React.FC<{}> = () => {
+const QuizInfoSelectForm: React.FC = () => {
   const categories: Category[] = getCategories();
   const languageChoices: LanguageChoice[] = [
     { id: 'es_en', language: 'Spanish to English' },
