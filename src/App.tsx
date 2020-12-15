@@ -1,13 +1,15 @@
 import React from 'react';
-import './App.css';
-import Quiz from './components/Quiz'
-import { Language } from './types'
+import { Container, Typography } from '@material-ui/core';
+import QuizInfoSelectForm from './components/QuizInfoSelectForm';
 
 function App() {
   return (
-    <div className="App">
-      <Quiz numberOfWords={30} sourceLang={"EN"} destinationLang={"ES"}/>
-    </div>
+    <Container maxWidth="sm" style={{ paddingTop: '50px' }}>
+      <Typography variant="h3" gutterBottom>
+        Spanish Quizbot 🤖
+      </Typography>
+      <QuizInfoSelectForm />
+    </Container>
   );
 }
 
