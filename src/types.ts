@@ -16,4 +16,6 @@ export type Category = {
 export type LanguageChoice = {
     id: string
     language: string
+    sourceLang: Language
+    destinationLang: Language
 }

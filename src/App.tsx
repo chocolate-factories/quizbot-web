@@ -8,7 +8,7 @@ function App() {
       <Typography variant="h3" gutterBottom>
         Spanish Quizbot 🤖
       </Typography>
-      <QuizInfoSelectForm />
+      <QuizInfoSelectForm/>
     </Container>
   );
 }

@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import {Box, Button, Checkbox, TextField} from '@material-ui/core'
-import { Language } from '../types'
+import { Category, Language } from '../types'
 import checkTranslation from '../utils/checkTranslation'
 import generateWordList from '../utils/generateWordList'
 import getTranslation from '../utils/getTranslation'
@@ -36,6 +36,7 @@ interface QuizParams {
   numberOfWords: number,
   sourceLang: Language,
   destinationLang: Language,
+  newGame: () => void,
   categories?: string[]
 }
 
@@ -43,8 +44,10 @@ const Quiz: React.FC<QuizParams> = ({
   numberOfWords,
   sourceLang,
   destinationLang,
+  newGame,
   categories = []
 }) => {
+  console.log(numberOfWords, sourceLang, destinationLang, categories)
   const [words, setWords] = useState(() => generateWordList(numberOfWords, categories));
   const [currentRound, setCurrentRound] = useState(0)
   const [score, setScore] = useState(0)
@@ -80,7 +83,7 @@ const Quiz: React.FC<QuizParams> = ({
     nextWord()
   }
 
-  const newGame = () => {
+  const restart = () => {
     const newWords = generateWordList(numberOfWords, categories, words)
     setWords(newWords);
     setCurrentRound(0)
@@ -171,6 +174,13 @@ const Quiz: React.FC<QuizParams> = ({
             onClick={() => newGame()}
           > 
             New game
+          </Button>
+          <Button
+            color="primary"
+            variant="contained"
+            onClick={() => restart()}
+          > 
+            Restart
           </Button>
         </Box>
       )}

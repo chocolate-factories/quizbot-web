@@ -4,29 +4,31 @@ import {
   Button,
   FormControl,
   InputLabel,
+  MenuItem,
   Select,
   TextField,
 } from '@material-ui/core';
 import { getCategories } from '../services/categoryService';
 import { Category, LanguageChoice } from '../types';
+import Quiz from './Quiz'
 
 const QuizInfoSelectForm: React.FC = () => {
   const categories: Category[] = getCategories();
   const languageChoices: LanguageChoice[] = [
-    { id: 'es_en', language: 'Spanish to English' },
-    { id: 'en_es', language: 'English to Spanish' },
+    { id: 'es_en', language: 'Spanish to English', sourceLang: 'ES', destinationLang: 'EN' },
+    { id: 'en_es', language: 'English to Spanish', sourceLang: 'EN', destinationLang: 'ES' },
   ];
   const defaultNumberOfWords = 10;
 
-  const [selectedCategory, setSelectedCategory] = useState<string>(
-    categories[0].id
+  const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
+  const [selectedLanguage, setSelectedLanguage] = useState<LanguageChoice>(
+    languageChoices[0]
   );
-  const [selectedLanguage, setSelectedLanguage] = useState<string>(
-    languageChoices[0].id
-  );
+  console.log(selectedCategories)
   const [numberOfWords, setNumberOfWords] = useState<number>(
     defaultNumberOfWords
   );
+  const [quizInProgress, setQuizInProgress] = useState(false)
 
   const handleNumOfWordsChange = (e: any) => {
     const value = e.target.value;
@@ -38,15 +40,17 @@ const QuizInfoSelectForm: React.FC = () => {
     }
   };
 
-  const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
-    event.preventDefault();
-    console.log('selectedCategory', selectedCategory);
-    console.log('selectedLanguage', selectedLanguage);
-    console.log('numberOfWords', numberOfWords);
-  };
-
   return (
-    <form onSubmit={handleSubmit}>
+    <div>
+      {quizInProgress ? (
+        <Quiz 
+          numberOfWords={numberOfWords}
+          sourceLang={selectedLanguage.sourceLang}
+          destinationLang={selectedLanguage.destinationLang}
+          newGame={() => setQuizInProgress(false)}
+          categories={selectedCategories}
+        />        
+      ) : (
       <Box
         style={{
           display: 'flex',
@@ -57,14 +61,15 @@ const QuizInfoSelectForm: React.FC = () => {
         <FormControl variant="outlined">
           <InputLabel htmlFor="category">Category</InputLabel>
           <Select
-            native
-            onChange={(e: any) => setSelectedCategory(e.target.value)}
+            multiple
+            onChange={(e: any) => setSelectedCategories(e.target.value)}
             label="category"
+            value={selectedCategories}
           >
             {categories.map((category) => (
-              <option key={category.id} value={category.id}>
+              <MenuItem key={category.id} value={category.id}>
                 {category.name}
-              </option>
+              </MenuItem>
             ))}
           </Select>
         </FormControl>
@@ -72,11 +77,11 @@ const QuizInfoSelectForm: React.FC = () => {
           <InputLabel htmlFor="language">Language</InputLabel>
           <Select
             native
-            onChange={(e: any) => setSelectedLanguage(e.target.value)}
+            onChange={(e: any) => setSelectedLanguage(JSON.parse(e.target.value))}
             label="language"
           >
             {languageChoices.map((languageChoice) => (
-              <option key={languageChoice.id} value={languageChoice.id}>
+              <option key={languageChoice.id} value={JSON.stringify(languageChoice)}>
                 {languageChoice.language}
               </option>
             ))}
@@ -92,11 +97,12 @@ const QuizInfoSelectForm: React.FC = () => {
             style={{ width: '130px' }}
           />
         </FormControl>
-        <Button type="submit" variant="outlined" color="primary">
+        <Button onClick={() => setQuizInProgress(true)} variant="outlined" color="primary">
           Start
         </Button>
       </Box>
-    </form>
+      )}
+    </div>
   );
 };
 
