@@ -1,4 +1,4 @@
-import React, { FormEvent, useState } from 'react';
+import React, { useState } from 'react'
 import {
   Box,
   Button,
@@ -7,20 +7,20 @@ import {
   MenuItem,
   Select,
   TextField,
-} from '@material-ui/core';
-import { getCategories } from '../services/categoryService';
-import { Category, LanguageChoice } from '../types';
+} from '@material-ui/core'
+import { getCategories } from '../services/categoryService'
+import { Category, LanguageChoice } from '../types'
 import Quiz from './Quiz'
 
 const QuizInfoSelectForm: React.FC = () => {
-  const categories: Category[] = getCategories();
+  const categories: Category[] = getCategories()
   const languageChoices: LanguageChoice[] = [
     { id: 'es_en', language: 'Spanish to English', sourceLang: 'ES', destinationLang: 'EN' },
     { id: 'en_es', language: 'English to Spanish', sourceLang: 'EN', destinationLang: 'ES' },
   ];
   const defaultNumberOfWords = 10;
 
-  const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
+  const [selectedCategories, setSelectedCategories] = useState<string[]>([])
   const [selectedLanguage, setSelectedLanguage] = useState<LanguageChoice>(
     languageChoices[0]
   );
@@ -30,15 +30,13 @@ const QuizInfoSelectForm: React.FC = () => {
   );
   const [quizInProgress, setQuizInProgress] = useState(false)
 
-  const handleNumOfWordsChange = (e: any) => {
-    const value = e.target.value;
-    if (value < 1) {
-      alert('Quiz at least one vocab 🤖');
-      setNumberOfWords(defaultNumberOfWords);
+  const submitForm = () => {
+    if (numberOfWords < 1) {
+      alert('Need at least 1 word to start the quiz 🤖')
     } else {
-      setNumberOfWords(value);
+      setQuizInProgress(true)
     }
-  };
+  }
 
   return (
     <div>
@@ -65,6 +63,9 @@ const QuizInfoSelectForm: React.FC = () => {
             onChange={(e: any) => setSelectedCategories(e.target.value)}
             label="category"
             value={selectedCategories}
+            style={{
+              width: '150px'
+            }}
           >
             {categories.map((category) => (
               <MenuItem key={category.id} value={category.id}>
@@ -92,12 +93,12 @@ const QuizInfoSelectForm: React.FC = () => {
             label="Number of Words"
             type="number"
             value={numberOfWords}
-            onChange={handleNumOfWordsChange}
+            onChange={(e: any) => setNumberOfWords(e.target.value)}
             variant="outlined"
             style={{ width: '130px' }}
           />
         </FormControl>
-        <Button onClick={() => setQuizInProgress(true)} variant="outlined" color="primary">
+        <Button onClick={() => submitForm()} variant="outlined" color="primary">
           Start
         </Button>
       </Box>
