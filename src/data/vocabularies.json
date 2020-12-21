@@ -1463,5 +1463,329 @@
     "EN": "to absorb",
     "ES": "absorber",
     "categoryId": "er verbs"
+  },
+  {
+    "id": 245,
+    "EN": "boat",
+    "ES": "el barco",
+    "categoryId": "revision"
+  },
+  {
+    "id": 246,
+    "EN": "truck",
+    "ES": "el camión",
+    "categoryId": "revision"
+  },
+  {
+    "id": 247,
+    "EN": "walking",
+    "ES": "andando",
+    "categoryId": "revision"
+  },
+  {
+    "id": 248,
+    "EN": "on foot",
+    "ES": "a pie",
+    "categoryId": "revision"
+  },
+  {
+    "id": 249,
+    "EN": "to call",
+    "ES": "llamar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 250,
+    "EN": "to buy",
+    "ES": "comprar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 251,
+    "EN": "to have breakfast",
+    "ES": "desayunar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 252,
+    "EN": "to walk",
+    "ES": "caminar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 253,
+    "EN": "to change",
+    "ES": "cambiar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 254,
+    "EN": "to take / to drink",
+    "ES": "tomar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 255,
+    "EN": "to go down",
+    "ES": "bajar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 256,
+    "EN": "to wash",
+    "ES": "lavar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 257,
+    "EN": "to wait",
+    "ES": "esperar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 258,
+    "EN": "to win",
+    "ES": "ganar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 259,
+    "EN": "to arrive",
+    "ES": "llegar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 260,
+    "EN": "to have dinner",
+    "ES": "cenar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 261,
+    "EN": "to care",
+    "ES": "cuidar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 262,
+    "EN": "to draw",
+    "ES": "dibujar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 263,
+    "EN": "to send",
+    "ES": "enviar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 264,
+    "EN": "to throw",
+    "ES": "lanzar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 265,
+    "EN": "to fill up",
+    "ES": "llenar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 266,
+    "EN": "to carry / to wear",
+    "ES": "llevar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 267,
+    "EN": "to clean",
+    "ES": "limpiar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 268,
+    "EN": "to hate",
+    "ES": "odiar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 269,
+    "EN": "to forget",
+    "ES": "olvidar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 270,
+    "EN": "to iron",
+    "ES": "planchar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 271,
+    "EN": "to travel",
+    "ES": "viajar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 272,
+    "EN": "boat",
+    "ES": "el barco",
+    "categoryId": "revision"
+  },
+  {
+    "id": 273,
+    "EN": "truck",
+    "ES": "el camión",
+    "categoryId": "revision"
+  },
+  {
+    "id": 274,
+    "EN": "walking",
+    "ES": "andando",
+    "categoryId": "revision"
+  },
+  {
+    "id": 275,
+    "EN": "on foot",
+    "ES": "a pie",
+    "categoryId": "revision"
+  },
+  {
+    "id": 276,
+    "EN": "to call",
+    "ES": "llamar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 277,
+    "EN": "to buy",
+    "ES": "comprar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 278,
+    "EN": "to have breakfast",
+    "ES": "desayunar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 279,
+    "EN": "to walk",
+    "ES": "caminar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 280,
+    "EN": "to change",
+    "ES": "cambiar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 281,
+    "EN": "to take / to drink",
+    "ES": "tomar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 282,
+    "EN": "to go down",
+    "ES": "bajar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 283,
+    "EN": "to wash",
+    "ES": "lavar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 284,
+    "EN": "to wait",
+    "ES": "esperar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 285,
+    "EN": "to win",
+    "ES": "ganar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 286,
+    "EN": "to arrive",
+    "ES": "llegar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 287,
+    "EN": "to have dinner",
+    "ES": "cenar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 288,
+    "EN": "to care",
+    "ES": "cuidar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 289,
+    "EN": "to draw",
+    "ES": "dibujar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 290,
+    "EN": "to send",
+    "ES": "enviar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 291,
+    "EN": "to throw",
+    "ES": "lanzar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 292,
+    "EN": "to fill up",
+    "ES": "llenar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 293,
+    "EN": "to carry / to wear",
+    "ES": "llevar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 294,
+    "EN": "to clean",
+    "ES": "limpiar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 295,
+    "EN": "to hate",
+    "ES": "odiar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 296,
+    "EN": "to forget",
+    "ES": "olvidar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 297,
+    "EN": "to iron",
+    "ES": "planchar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 298,
+    "EN": "to travel",
+    "ES": "viajar",
+    "categoryId": "revision"
   }
 ]
