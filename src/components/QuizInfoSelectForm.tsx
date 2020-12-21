@@ -9,14 +9,14 @@ import {
   TextField,
 } from '@material-ui/core'
 import { getCategories } from '../services/categoryService'
-import { Category, LanguageChoice } from '../types'
+import { Category, Language, LanguageChoice } from '../types'
 import Quiz from './Quiz'
 
 const QuizInfoSelectForm: React.FC = () => {
   const categories: Category[] = getCategories()
   const languageChoices: LanguageChoice[] = [
-    { id: 'es_en', language: 'Spanish to English', sourceLang: 'ES', destinationLang: 'EN' },
-    { id: 'en_es', language: 'English to Spanish', sourceLang: 'EN', destinationLang: 'ES' },
+    { id: 'es_en', language: 'Spanish to English', sourceLang: Language.Spanish, destinationLang: Language.English},
+    { id: 'en_es', language: 'English to Spanish', sourceLang: Language.English, destinationLang: Language.Spanish },
   ];
   const defaultNumberOfWords = 10;
 

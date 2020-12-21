@@ -20,7 +20,7 @@ const generateWordList = (numberOfWords: number, categories: string[] = [], forb
     numberOfWords = candidateWords.length
   }
   for (let i = 0; i < numberOfWords; i++) {
-    let randomIndex = Math.floor(Math.random() * candidateWords.length)
+    const randomIndex = Math.floor(Math.random() * candidateWords.length)
     generatedWords.push(candidateWords[randomIndex])
     candidateWords.splice(randomIndex, 1)
   }

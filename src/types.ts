@@ -1,5 +1,8 @@
 
-export type Language = "EN" | "ES"
+export enum Language {
+  English = 'EN',
+  Spanish = 'ES'
+}
 export type VocabEntry = {
   id: number,
   EN: string,
