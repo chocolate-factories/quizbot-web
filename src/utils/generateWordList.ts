@@ -1,5 +1,6 @@
 import vocabularies from '../data/vocabularies.json'
 import { VocabEntry } from '../types'
+import { getWords, getWordsInCategories } from '../services/vocabularyService'
 
 /**
  * Generates a set number of words from the vocabularies.
@@ -11,9 +12,11 @@ import { VocabEntry } from '../types'
 const generateWordList = (numberOfWords: number, categories: string[] = [], forbiddenWords: VocabEntry[] = []): VocabEntry[] => {
   const generatedWords = [];
   // Deep copy, otherwise we will delete from vocabularies.
-  let candidateWords: VocabEntry[] = JSON.parse(JSON.stringify(vocabularies))
+  let candidateWords;
   if (categories.length > 0) {
-    candidateWords = vocabularies.filter(vocabEntry => categories.includes(vocabEntry.categoryId))    
+    candidateWords = getWordsInCategories(categories)   
+  } else {
+    candidateWords = getWords()
   }
   candidateWords = candidateWords.filter(vocabEntry => !forbiddenWords.some(forbiddenWord => forbiddenWord.id === vocabEntry.id))
   if (numberOfWords > candidateWords.length) {
