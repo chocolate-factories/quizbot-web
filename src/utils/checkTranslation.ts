@@ -9,16 +9,16 @@ import removeAccents from 'remove-accents'
  * the provided translation and the vocabulary.
  */
 const checkTranslation = (
-  word: string,
+  translation: string,
   correctTranslation: string,
   ignoreSpecialLetters: boolean = false
 ): boolean => {
 
   if (ignoreSpecialLetters) {
-    word = removeAccents(word)
+    translation = removeAccents(translation)
     correctTranslation = removeAccents(correctTranslation)
   }
-  return matchTranslation(word, correctTranslation)  
+  return matchTranslation(translation, correctTranslation)  
 }
 
 const matchTranslation = (translation: string, correctTranslation: string): boolean => {
