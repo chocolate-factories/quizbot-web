@@ -5,7 +5,6 @@ describe('categoryService', () => {
     it('returns non empty category list', () => {
       const categories = getCategories();
       expect(categories).not.toBeNull;
-      console.log(categories);
     });
   });
 });
