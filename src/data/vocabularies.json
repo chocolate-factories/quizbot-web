@@ -995,5 +995,473 @@
     "EN": "to travel",
     "ES": "viajar",
     "categoryId": "ar verbs"
+  },
+  {
+    "id": 167,
+    "EN": "personal details",
+    "ES": "los datos personales",
+    "categoryId": "personal details"
+  },
+  {
+    "id": 168,
+    "EN": "name",
+    "ES": "el nombre",
+    "categoryId": "personal details"
+  },
+  {
+    "id": 169,
+    "EN": "surname",
+    "ES": "el apellido",
+    "categoryId": "personal details"
+  },
+  {
+    "id": 170,
+    "EN": "age",
+    "ES": "la edad",
+    "categoryId": "personal details"
+  },
+  {
+    "id": 171,
+    "EN": "marital status",
+    "ES": "el estado civil",
+    "categoryId": "personal details"
+  },
+  {
+    "id": 172,
+    "EN": "nationality",
+    "ES": "la nacionalidad",
+    "categoryId": "personal details"
+  },
+  {
+    "id": 173,
+    "EN": "country",
+    "ES": "el país",
+    "categoryId": "personal details"
+  },
+  {
+    "id": 174,
+    "EN": "address",
+    "ES": "la dirección",
+    "categoryId": "personal details"
+  },
+  {
+    "id": 175,
+    "EN": "city",
+    "ES": "la ciudad",
+    "categoryId": "personal details"
+  },
+  {
+    "id": 176,
+    "EN": "floor",
+    "ES": "el piso",
+    "categoryId": "personal details"
+  },
+  {
+    "id": 177,
+    "EN": "staircase",
+    "ES": "la escalera",
+    "categoryId": "personal details"
+  },
+  {
+    "id": 178,
+    "EN": "postcode",
+    "ES": "el código postal",
+    "categoryId": "personal details"
+  },
+  {
+    "id": 179,
+    "EN": "e-mail",
+    "ES": "el correo electrónico",
+    "categoryId": "personal details"
+  },
+  {
+    "id": 180,
+    "EN": "phone number",
+    "ES": "el número de teléfono",
+    "categoryId": "personal details"
+  },
+  {
+    "id": 181,
+    "EN": "form",
+    "ES": "el formulario",
+    "categoryId": "personal details"
+  },
+  {
+    "id": 182,
+    "EN": "to sign",
+    "ES": "firmar",
+    "categoryId": "personal details"
+  },
+  {
+    "id": 183,
+    "EN": "signature",
+    "ES": "la firma",
+    "categoryId": "personal details"
+  },
+  {
+    "id": 184,
+    "EN": "to pay",
+    "ES": "pagar",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 185,
+    "EN": "to pay in cash",
+    "ES": "pagar en efectivo",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 186,
+    "EN": "to pay by card",
+    "ES": "pagar con tarjeta",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 187,
+    "EN": "to go shopping",
+    "ES": "ir de compras",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 188,
+    "EN": "to sell",
+    "ES": "vender",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 189,
+    "EN": "size",
+    "ES": "la talla",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 190,
+    "EN": "small size",
+    "ES": "la talla pequeña",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 191,
+    "EN": "medium size",
+    "ES": "la talla mediana",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 192,
+    "EN": "large size",
+    "ES": "la talla grande",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 193,
+    "EN": "another size",
+    "ES": "otra talla",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 194,
+    "EN": "to try on",
+    "ES": "probar",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 195,
+    "EN": "changing rooms",
+    "ES": "los probadores",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 196,
+    "EN": "client",
+    "ES": "el cliente / la clienta",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 197,
+    "EN": "till / cash register",
+    "ES": "la caja",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 198,
+    "EN": "queue",
+    "ES": "la cola",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 199,
+    "EN": "pretty",
+    "ES": "bonito / bonita",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 200,
+    "EN": "ugly",
+    "ES": "feo / fea",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 201,
+    "EN": "expensive",
+    "ES": "caro / cara",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 202,
+    "EN": "cheap",
+    "ES": "barato / barata",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 203,
+    "EN": "shirt",
+    "ES": "la camisa",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 204,
+    "EN": "t-shirt",
+    "ES": "la camiseta",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 205,
+    "EN": "trousers / pants",
+    "ES": "los pantalones",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 206,
+    "EN": "skirt",
+    "ES": "la falda",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 207,
+    "EN": "dress",
+    "ES": "el vestido",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 208,
+    "EN": "shoes",
+    "ES": "los zapatos",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 209,
+    "EN": "handbag",
+    "ES": "el bolso",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 210,
+    "EN": "It fits me",
+    "ES": "Me queda bien",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 211,
+    "EN": "It doesn't fit me",
+    "ES": "Me queda mal",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 212,
+    "EN": "I am taking it",
+    "ES": "Me lo llevo",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 213,
+    "EN": "How much does it cost?",
+    "ES": "¿cuánto cuesta? / ¿cuánto vale?",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 214,
+    "EN": "It costs...",
+    "ES": "Cuesta... / Vale...",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 215,
+    "EN": "color",
+    "ES": "color",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 216,
+    "EN": "shoe size",
+    "ES": "número de zapato / número de pie",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 217,
+    "EN": "I prefer...",
+    "ES": "Prefiero...",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 218,
+    "EN": "lift / elevator",
+    "ES": "el ascensor",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 219,
+    "EN": "discount",
+    "ES": "el descuento",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 220,
+    "EN": "offer",
+    "ES": "la oferta",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 221,
+    "EN": "sales",
+    "ES": "las rebajas",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 222,
+    "EN": "to learn",
+    "ES": "aprender",
+    "categoryId": "er verbs"
+  },
+  {
+    "id": 223,
+    "EN": "to drink",
+    "ES": "beber",
+    "categoryId": "er verbs"
+  },
+  {
+    "id": 224,
+    "EN": "to eat",
+    "ES": "comer",
+    "categoryId": "er verbs"
+  },
+  {
+    "id": 225,
+    "EN": "to understand",
+    "ES": "comprender",
+    "categoryId": "er verbs"
+  },
+  {
+    "id": 226,
+    "EN": "to run",
+    "ES": "correr",
+    "categoryId": "er verbs"
+  },
+  {
+    "id": 227,
+    "EN": "must",
+    "ES": "deber",
+    "categoryId": "er verbs"
+  },
+  {
+    "id": 228,
+    "EN": "to hide",
+    "ES": "esconder",
+    "categoryId": "er verbs"
+  },
+  {
+    "id": 229,
+    "EN": "to choose",
+    "ES": "escoger",
+    "categoryId": "er verbs"
+  },
+  {
+    "id": 230,
+    "EN": "to read",
+    "ES": "leer",
+    "categoryId": "er verbs"
+  },
+  {
+    "id": 231,
+    "EN": "to put (in)",
+    "ES": "meter (en)",
+    "categoryId": "er verbs"
+  },
+  {
+    "id": 232,
+    "EN": "to promise",
+    "ES": "prometer",
+    "categoryId": "er verbs"
+  },
+  {
+    "id": 233,
+    "EN": "to respond",
+    "ES": "responder",
+    "categoryId": "er verbs"
+  },
+  {
+    "id": 234,
+    "EN": "to break",
+    "ES": "romper",
+    "categoryId": "er verbs"
+  },
+  {
+    "id": 235,
+    "EN": "to fear",
+    "ES": "temer",
+    "categoryId": "er verbs"
+  },
+  {
+    "id": 236,
+    "EN": "to cough",
+    "ES": "toser",
+    "categoryId": "er verbs"
+  },
+  {
+    "id": 237,
+    "EN": "to sell",
+    "ES": "vender",
+    "categoryId": "er verbs"
+  },
+  {
+    "id": 238,
+    "EN": "to surprise",
+    "ES": "sorprender",
+    "categoryId": "er verbs"
+  },
+  {
+    "id": 239,
+    "EN": "to break / to tear",
+    "ES": "romper",
+    "categoryId": "er verbs"
+  },
+  {
+    "id": 240,
+    "EN": "to proceed",
+    "ES": "proceder",
+    "categoryId": "er verbs"
+  },
+  {
+    "id": 241,
+    "EN": "to switch on / to grab",
+    "ES": "prender",
+    "categoryId": "er verbs"
+  },
+  {
+    "id": 242,
+    "EN": "to possess / to hold",
+    "ES": "poseer",
+    "categoryId": "er verbs"
+  },
+  {
+    "id": 243,
+    "EN": "to exceed",
+    "ES": "exceder",
+    "categoryId": "er verbs"
+  },
+  {
+    "id": 244,
+    "EN": "to absorb",
+    "ES": "absorber",
+    "categoryId": "er verbs"
   }
 ]
