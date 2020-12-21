@@ -1,13 +1,12 @@
-
 export enum Language {
-  English = 'EN',
-  Spanish = 'ES'
+    English = 'EN',
+    Spanish = 'ES'
 }
 export type VocabEntry = {
-  id: number,
-  EN: string,
-  ES: string,
-  categoryId: string
+    id: number
+    EN: string
+    ES: string
+    categoryId: string
 }
 
 export type Category = {
