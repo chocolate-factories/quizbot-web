@@ -1,9 +1,8 @@
 import React, { useState } from 'react'
 import {Box, Button, Checkbox, TextField} from '@material-ui/core'
-import { Category, Language } from '../types'
+import { Language } from '../types'
 import checkTranslation from '../utils/checkTranslation'
 import generateWordList from '../utils/generateWordList'
-import getTranslation from '../utils/getTranslation'
 
 const InputField: React.FC<{onSubmit: (arg0: string) => void}> = ({onSubmit}) => {
   const [input, setInput] = useState("")
@@ -11,7 +10,7 @@ const InputField: React.FC<{onSubmit: (arg0: string) => void}> = ({onSubmit}) =>
     <>
       <TextField 
         id="standard-basic" 
-        label="Type your translation here"
+        label="Type your translation"
         variant="outlined"
         value={input} 
         onChange={(event) => setInput(event.target.value)}
@@ -47,19 +46,18 @@ const Quiz: React.FC<QuizParams> = ({
   newGame,
   categories = []
 }) => {
-  console.log(numberOfWords, sourceLang, destinationLang, categories)
   const [words, setWords] = useState(() => generateWordList(numberOfWords, categories));
   const [currentRound, setCurrentRound] = useState(0)
   const [score, setScore] = useState(0)
   const [inputState, setInputState] = useState(TranslationInputState.input)
-  const [currentWord, setCurrentWord] = useState(words[0][sourceLang])
+  const [currentWord, setCurrentWord] = useState(words[0])
   const [correctTranslation, setCorrectTranslation] = useState('')
   const [replaceSpecialCharacters, setReplaceSpecialCharacters] = useState(false)
 
   const gameOver = currentRound === words.length
 
   const validate = (input: string) => {
-    const translation = getTranslation(currentWord, sourceLang, destinationLang)
+    const translation = currentWord[destinationLang]
     setCorrectTranslation(translation)
     const isCorrect = checkTranslation(input, translation, replaceSpecialCharacters)
     if (isCorrect) {
@@ -73,7 +71,7 @@ const Quiz: React.FC<QuizParams> = ({
   const nextWord = () => {
     setInputState(TranslationInputState.input)
     if (currentRound + 1 < words.length) {
-      setCurrentWord(words[currentRound + 1][sourceLang])
+      setCurrentWord(words[currentRound + 1])
     }
     setCurrentRound(currentRound + 1)
   }
@@ -89,7 +87,7 @@ const Quiz: React.FC<QuizParams> = ({
     setCurrentRound(0)
     setScore(0)
     setInputState(TranslationInputState.input)
-    setCurrentWord(newWords[0][sourceLang])
+    setCurrentWord(newWords[0])
     setCorrectTranslation('')
   }
 
@@ -100,7 +98,7 @@ const Quiz: React.FC<QuizParams> = ({
           <Box style={{
             margin: "16px 0",
             fontSize: "20px"
-          }}>{currentWord}</Box>
+          }}>{currentWord[sourceLang]}</Box>
           {inputState === TranslationInputState.input && (
             <Box>
               <InputField onSubmit={validate}/>

@@ -24,7 +24,6 @@ const QuizInfoSelectForm: React.FC = () => {
   const [selectedLanguage, setSelectedLanguage] = useState<LanguageChoice>(
     languageChoices[0]
   );
-  console.log(selectedCategories)
   const [numberOfWords, setNumberOfWords] = useState<number>(
     defaultNumberOfWords
   );
