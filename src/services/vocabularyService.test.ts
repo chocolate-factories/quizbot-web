@@ -3,14 +3,14 @@ import { getWords, getWordsInCategories } from './vocabularyService'
 describe('vocabularyService', () => {
   describe('getWords should', () => {
     it('return non empty word list', () => {
-      const words = getWords();
-      expect(words).not.toBeNull;
-    });
+      const words = getWords()
+      expect(words).not.toBeNull
+    })
     it('return not return any revision words', () => {
-        const words = getWords();
-        expect(words.some(word => word.categoryId === 'revision')).toEqual(false)
-      });
-  });
+      const words = getWords()
+      expect(words.some((word) => word.categoryId === 'revision')).toEqual(false)
+    })
+  })
   describe('getWordsInCategories should', () => {
     it('return all words from a given category', () => {
       const words = getWordsInCategories(['animals'])

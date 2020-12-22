@@ -31,12 +31,12 @@ enum TranslationInputState {
 }
 
 interface QuizParams {
-  numberOfWords: number,
-  sourceLang: Language,
-  destinationLang: Language,
-  newGame: () => void,
-  numberOfRevisionWords: number,
-  categories?: string[],
+  numberOfWords: number
+  sourceLang: Language
+  destinationLang: Language
+  newGame: () => void
+  numberOfRevisionWords: number
+  categories?: string[]
 }
 
 const Quiz: React.FC<QuizParams> = ({
@@ -47,8 +47,10 @@ const Quiz: React.FC<QuizParams> = ({
   numberOfRevisionWords,
   categories = []
 }) => {
-  const [words, setWords] = useState(() => generateWordList(numberOfWords, categories));
-  const [revisionWords, setRevisionWords] = useState(() => generateWordList(numberOfRevisionWords, ['revision']))  
+  const [words, setWords] = useState(() => generateWordList(numberOfWords, categories))
+  const [revisionWords, setRevisionWords] = useState(() =>
+    generateWordList(numberOfRevisionWords, ['revision'])
+  )
   const [currentRound, setCurrentRound] = useState(0)
   const [score, setScore] = useState(0)
   const [inputState, setInputState] = useState(TranslationInputState.input)
@@ -91,7 +93,7 @@ const Quiz: React.FC<QuizParams> = ({
   const restart = () => {
     const newWords = generateWordList(numberOfWords, categories, words)
     const newRevisionWords = generateWordList(numberOfRevisionWords, ['revision'], revisionWords)
-    setWords(newWords);
+    setWords(newWords)
     setRevisionWords(newRevisionWords)
     setCurrentRound(0)
     setScore(0)

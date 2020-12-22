@@ -1,4 +1,3 @@
-import vocabularies from '../data/vocabularies.json'
 import { VocabEntry } from '../types'
 import { getWords, getWordsInCategories } from '../services/vocabularyService'
 
@@ -10,19 +9,21 @@ import { getWords, getWordsInCategories } from '../services/vocabularyService'
  * @param forbiddenWords defaults to empty list. If a list of words is provided, those words will not be generated.
  */
 const generateWordList = (
-    numberOfWords: number,
-    categories: string[] = [],
-    forbiddenWords: VocabEntry[] = [],
-  ): VocabEntry[] => {
-  const generatedWords = [];
+  numberOfWords: number,
+  categories: string[] = [],
+  forbiddenWords: VocabEntry[] = []
+): VocabEntry[] => {
+  const generatedWords = []
   // Deep copy, otherwise we will delete from vocabularies.
-  let candidateWords;
+  let candidateWords
   if (categories.length > 0) {
-    candidateWords = getWordsInCategories(categories)   
+    candidateWords = getWordsInCategories(categories)
   } else {
     candidateWords = getWords()
   }
-  candidateWords = candidateWords.filter(vocabEntry => !forbiddenWords.some(forbiddenWord => forbiddenWord.id === vocabEntry.id))
+  candidateWords = candidateWords.filter(
+    (vocabEntry) => !forbiddenWords.some((forbiddenWord) => forbiddenWord.id === vocabEntry.id)
+  )
   if (numberOfWords > candidateWords.length) {
     numberOfWords = candidateWords.length
   }
@@ -31,7 +32,7 @@ const generateWordList = (
     generatedWords.push(candidateWords[randomIndex])
     candidateWords.splice(randomIndex, 1)
   }
-  return generatedWords;
+  return generatedWords
 }
 
-export default generateWordList;
+export default generateWordList
