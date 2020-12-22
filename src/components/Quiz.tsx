@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import React, { useState } from 'react'
 import { Box, Button, Checkbox, TextField } from '@material-ui/core'
 import { Language } from '../types'

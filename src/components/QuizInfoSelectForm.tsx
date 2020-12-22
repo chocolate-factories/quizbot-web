@@ -28,7 +28,7 @@ const QuizInfoSelectForm: React.FC = () => {
       destinationLang: Language.Spanish
     }
   ]
-  const defaultNumberOfWords = 10
+  const defaultNumberOfWords = 15
 
   const [selectedCategories, setSelectedCategories] = useState<string[]>([])
   const [selectedLanguage, setSelectedLanguage] = useState<LanguageChoice>(languageChoices[0])
@@ -95,7 +95,7 @@ const QuizInfoSelectForm: React.FC = () => {
           </FormControl>
           <FormControl variant="outlined">
             <TextField
-              label="Number of Words"
+              label="Number of words"
               type="number"
               value={numberOfWords}
               onChange={(e: any) => setNumberOfWords(e.target.value)}

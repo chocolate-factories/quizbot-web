@@ -6,8 +6,12 @@ describe('vocabularyService', () => {
       const words = getWords()
       expect(words).not.toBeNull
     })
+    it('not return any revision words', () => {
+      const words = getWords()
+      expect(words.some((word) => word.categoryId === 'revision')).toEqual(false)
+    })
   })
-  describe('getWords should', () => {
+  describe('getWordsInCategories should', () => {
     it('return all words from a given category', () => {
       const words = getWordsInCategories(['animals'])
       expect(words.length).toEqual(32)

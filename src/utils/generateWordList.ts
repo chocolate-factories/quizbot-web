@@ -1,5 +1,5 @@
-import { getWords, getWordsInCategories } from '../services/vocabularyService'
 import { VocabEntry } from '../types'
+import { getWords, getWordsInCategories } from '../services/vocabularyService'
 
 /**
  * Generates a set number of words from the vocabularies.
