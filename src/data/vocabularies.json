@@ -1,1791 +1,1791 @@
 [
-    {
-        "id": 1,
-        "EN": "What's the weather like today?",
-        "ES": "¿Qué tiempo hace hoy?",
-        "categoryId": "weather"
-    },
-    {
-        "id": 2,
-        "EN": "It is cold",
-        "ES": "Hace frío",
-        "categoryId": "weather"
-    },
-    {
-        "id": 3,
-        "EN": "It is hot",
-        "ES": "Hace calor",
-        "categoryId": "weather"
-    },
-    {
-        "id": 4,
-        "EN": "It is windy",
-        "ES": "Hace viento",
-        "categoryId": "weather"
-    },
-    {
-        "id": 5,
-        "EN": "It is sunny",
-        "ES": "Hace sol / Está soleado",
-        "categoryId": "weather"
-    },
-    {
-        "id": 6,
-        "EN": "It is 25 degrees",
-        "ES": "Hace 25 grados",
-        "categoryId": "weather"
-    },
-    {
-        "id": 7,
-        "EN": "It is cloudy",
-        "ES": "Está nublado",
-        "categoryId": "weather"
-    },
-    {
-        "id": 8,
-        "EN": "There are clear skies",
-        "ES": "Está despejado",
-        "categoryId": "weather"
-    },
-    {
-        "id": 9,
-        "EN": "It is raining",
-        "ES": "Está lloviendo",
-        "categoryId": "weather"
-    },
-    {
-        "id": 10,
-        "EN": "It is snowing",
-        "ES": "Está nevando",
-        "categoryId": "weather"
-    },
-    {
-        "id": 11,
-        "EN": "There is fog",
-        "ES": "Hay niebla",
-        "categoryId": "weather",
-        "isUsed": true
-    },
-    {
-        "id": 12,
-        "EN": "There is lightning",
-        "ES": "Hay relámpagos",
-        "categoryId": "weather"
-    },
-    {
-        "id": 13,
-        "EN": "There is a storm",
-        "ES": "Hay tormenta",
-        "categoryId": "weather"
-    },
-    {
-        "id": 14,
-        "EN": "There is thunder",
-        "ES": "Hay truenos",
-        "categoryId": "weather"
-    },
-    {
-        "id": 15,
-        "EN": "There is a rainbow",
-        "ES": "Hay un arcoíris",
-        "categoryId": "weather"
-    },
-    {
-        "id": 16,
-        "EN": "The temperature is low",
-        "ES": "Las temperaturas son bajas",
-        "categoryId": "weather"
-    },
-    {
-        "id": 17,
-        "EN": "The temperature is moderate",
-        "ES": "Las temperaturas son moderadas",
-        "categoryId": "weather"
-    },
-    {
-        "id": 18,
-        "EN": "The temperature is high",
-        "ES": "Las temperaturas son altas",
-        "categoryId": "weather"
-    },
-    {
-        "id": 19,
-        "EN": "cat",
-        "ES": "el gato / la gata",
-        "categoryId": "animals"
-    },
-    {
-        "id": 20,
-        "EN": "dog",
-        "ES": "el perro / la perra",
-        "categoryId": "animals"
-    },
-    {
-        "id": 21,
-        "EN": "horse",
-        "ES": "el caballo",
-        "categoryId": "animals"
-    },
-    {
-        "id": 22,
-        "EN": "mare",
-        "ES": "la yegua",
-        "categoryId": "animals"
-    },
-    {
-        "id": 23,
-        "EN": "bear",
-        "ES": "el oso / la osa",
-        "categoryId": "animals"
-    },
-    {
-        "id": 24,
-        "EN": "monkey",
-        "ES": "el mono / la mona",
-        "categoryId": "animals"
-    },
-    {
-        "id": 25,
-        "EN": "bull",
-        "ES": "el toro",
-        "categoryId": "animals"
-    },
-    {
-        "id": 26,
-        "EN": "cow",
-        "ES": "la vaca",
-        "categoryId": "animals"
-    },
-    {
-        "id": 27,
-        "EN": "ram",
-        "ES": "el carnero",
-        "categoryId": "animals"
-    },
-    {
-        "id": 28,
-        "EN": "sheep",
-        "ES": "la oveja",
-        "categoryId": "animals"
-    },
-    {
-        "id": 29,
-        "EN": "donkey",
-        "ES": "el burro / la burra",
-        "categoryId": "animals"
-    },
-    {
-        "id": 30,
-        "EN": "giraffe",
-        "ES": "la jirafa",
-        "categoryId": "animals"
-    },
-    {
-        "id": 31,
-        "EN": "elephant",
-        "ES": "el elefante / la elefanta",
-        "categoryId": "animals"
-    },
-    {
-        "id": 32,
-        "EN": "pig",
-        "ES": "el cerdo / la cerda",
-        "categoryId": "animals"
-    },
-    {
-        "id": 33,
-        "EN": "calf",
-        "ES": "el ternero / la ternera",
-        "categoryId": "animals"
-    },
-    {
-        "id": 34,
-        "EN": "cock",
-        "ES": "el gallo",
-        "categoryId": "animals"
-    },
-    {
-        "id": 35,
-        "EN": "hen",
-        "ES": "la gallina",
-        "categoryId": "animals"
-    },
-    {
-        "id": 36,
-        "EN": "chicken",
-        "ES": "el pollo",
-        "categoryId": "animals"
-    },
-    {
-        "id": 37,
-        "EN": "sad chicken",
-        "ES": "el pollo triste",
-        "categoryId": "animals"
-    },
-    {
-        "id": 38,
-        "EN": "happy chicken",
-        "ES": "el pollo feliz",
-        "categoryId": "animals"
-    },
-    {
-        "id": 39,
-        "EN": "spider",
-        "ES": "la araña",
-        "categoryId": "animals"
-    },
-    {
-        "id": 40,
-        "EN": "mouse",
-        "ES": "el ratón",
-        "categoryId": "animals"
-    },
-    {
-        "id": 41,
-        "EN": "rat",
-        "ES": "el rato / la rata",
-        "categoryId": "animals"
-    },
-    {
-        "id": 42,
-        "EN": "frog",
-        "ES": "la rana",
-        "categoryId": "animals"
-    },
-    {
-        "id": 43,
-        "EN": "bird",
-        "ES": "el pájaro",
-        "categoryId": "animals"
-    },
-    {
-        "id": 44,
-        "EN": "fly",
-        "ES": "la mosca",
-        "categoryId": "animals"
-    },
-    {
-        "id": 45,
-        "EN": "fish",
-        "ES": "el pescado",
-        "categoryId": "animals"
-    },
-    {
-        "id": 46,
-        "EN": "turtle",
-        "ES": "la tortuga",
-        "categoryId": "animals"
-    },
-    {
-        "id": 47,
-        "EN": "whale",
-        "ES": "la ballena",
-        "categoryId": "animals"
-    },
-    {
-        "id": 48,
-        "EN": "dolphin",
-        "ES": "el delfín",
-        "categoryId": "animals"
-    },
-    {
-        "id": 49,
-        "EN": "crab",
-        "ES": "el cangrejo",
-        "categoryId": "animals"
-    },
-    {
-        "id": 50,
-        "EN": "shark",
-        "ES": "el tiburón",
-        "categoryId": "animals"
-    },
-    {
-        "id": 51,
-        "EN": "room",
-        "ES": "la habitación",
-        "categoryId": "room"
-    },
-    {
-        "id": 52,
-        "EN": "bed",
-        "ES": "la cama",
-        "categoryId": "room"
-    },
-    {
-        "id": 53,
-        "EN": "curtains",
-        "ES": "las cortinas",
-        "categoryId": "room"
-    },
-    {
-        "id": 54,
-        "EN": "poster",
-        "ES": "el póster",
-        "categoryId": "room"
-    },
-    {
-        "id": 55,
-        "EN": "mirror",
-        "ES": "el espejo",
-        "categoryId": "room"
-    },
-    {
-        "id": 56,
-        "EN": "desk",
-        "ES": "el escritorio",
-        "categoryId": "room"
-    },
-    {
-        "id": 57,
-        "EN": "computer",
-        "ES": "el ordenador",
-        "categoryId": "room"
-    },
-    {
-        "id": 58,
-        "EN": "chair",
-        "ES": "la silla",
-        "categoryId": "room"
-    },
-    {
-        "id": 59,
-        "EN": "table",
-        "ES": "la mesa",
-        "categoryId": "room"
-    },
-    {
-        "id": 60,
-        "EN": "chest of drawers",
-        "ES": "la cómoda",
-        "categoryId": "room"
-    },
-    {
-        "id": 61,
-        "EN": "wardrobe",
-        "ES": "el armario",
-        "categoryId": "room"
-    },
-    {
-        "id": 62,
-        "EN": "lamp",
-        "ES": "la lámpara",
-        "categoryId": "room"
-    },
-    {
-        "id": 63,
-        "EN": "shelf",
-        "ES": "la estantería",
-        "categoryId": "room"
-    },
-    {
-        "id": 64,
-        "EN": "pillow",
-        "ES": "la almohada",
-        "categoryId": "room"
-    },
-    {
-        "id": 65,
-        "EN": "sheet",
-        "ES": "la sábana",
-        "categoryId": "room"
-    },
-    {
-        "id": 66,
-        "EN": "blanket",
-        "ES": "la manta",
-        "categoryId": "room"
-    },
-    {
-        "id": 67,
-        "EN": "bedcover",
-        "ES": "la colcha",
-        "categoryId": "room"
-    },
-    {
-        "id": 68,
-        "EN": "duvet",
-        "ES": "el edredón",
-        "categoryId": "room"
-    },
-    {
-        "id": 69,
-        "EN": "pillowcase",
-        "ES": "la funda de almohada",
-        "categoryId": "room"
-    },
-    {
-        "id": 70,
-        "EN": "duvet cover",
-        "ES": "la funda nórdica",
-        "categoryId": "room"
-    },
-    {
-        "id": 71,
-        "EN": "bedside table",
-        "ES": "la mesita de noche",
-        "categoryId": "room"
-    },
-    {
-        "id": 72,
-        "EN": "rug",
-        "ES": "la alfombra",
-        "categoryId": "room"
-    },
-    {
-        "id": 73,
-        "EN": "carpet",
-        "ES": "la moqueta",
-        "categoryId": "room"
-    },
-    {
-        "id": 74,
-        "EN": "window",
-        "ES": "la ventana",
-        "categoryId": "room"
-    },
-    {
-        "id": 75,
-        "EN": "door",
-        "ES": "la puerta",
-        "categoryId": "room"
-    },
-    {
-        "id": 76,
-        "EN": "wall",
-        "ES": "la pared",
-        "categoryId": "room"
-    },
-    {
-        "id": 77,
-        "EN": "floor",
-        "ES": "el suelo",
-        "categoryId": "room"
-    },
-    {
-        "id": 78,
-        "EN": "ceiling",
-        "ES": "el techo",
-        "categoryId": "room"
-    },
-    {
-        "id": 79,
-        "EN": "roof",
-        "ES": "el tejado",
-        "categoryId": "room"
-    },
-    {
-        "id": 80,
-        "EN": "cook",
-        "ES": "el cocinero / la cocinera",
-        "categoryId": "professions"
-    },
-    {
-        "id": 81,
-        "EN": "waiter / waitress",
-        "ES": "el camarero / la camarera",
-        "categoryId": "professions"
-    },
-    {
-        "id": 82,
-        "EN": "lawyer",
-        "ES": "el abogado / la abogada",
-        "categoryId": "professions"
-    },
-    {
-        "id": 83,
-        "EN": "architect",
-        "ES": "el arquitecto / la arquitecta",
-        "categoryId": "professions"
-    },
-    {
-        "id": 84,
-        "EN": "doctor",
-        "ES": "el médico / la médica",
-        "categoryId": "professions"
-    },
-    {
-        "id": 85,
-        "EN": "nurse",
-        "ES": "el enfermero / la enfermera",
-        "categoryId": "professions"
-    },
-    {
-        "id": 86,
-        "EN": "teacher",
-        "ES": "el profesor / la profesora",
-        "categoryId": "professions"
-    },
-    {
-        "id": 87,
-        "EN": "firefighter",
-        "ES": "el bombero / la bombera",
-        "categoryId": "professions"
-    },
-    {
-        "id": 88,
-        "EN": "minister",
-        "ES": "el ministro / la ministra",
-        "categoryId": "professions"
-    },
-    {
-        "id": 89,
-        "EN": "carpenter",
-        "ES": "el carpintero / la carpintera",
-        "categoryId": "professions"
-    },
-    {
-        "id": 90,
-        "EN": "gardener",
-        "ES": "el jardinero / la jardinera",
-        "categoryId": "professions"
-    },
-    {
-        "id": 91,
-        "EN": "postman",
-        "ES": "el cartero / la cartera",
-        "categoryId": "professions"
-    },
-    {
-        "id": 92,
-        "EN": "administrator",
-        "ES": "el administrativo / la administrativa",
-        "categoryId": "professions"
-    },
-    {
-        "id": 93,
-        "EN": "butcher",
-        "ES": "el carnicero / la carnicera",
-        "categoryId": "professions"
-    },
-    {
-        "id": 94,
-        "EN": "plumber",
-        "ES": "el fontanero / la fontanera",
-        "categoryId": "professions"
-    },
-    {
-        "id": 95,
-        "EN": "hairdresser",
-        "ES": "el peluquero / la peluquera",
-        "categoryId": "professions"
-    },
-    {
-        "id": 96,
-        "EN": "salesman",
-        "ES": "el vendedor / la vendedora",
-        "categoryId": "professions"
-    },
-    {
-        "id": 97,
-        "EN": "manager",
-        "ES": "el director / la directora",
-        "categoryId": "professions"
-    },
-    {
-        "id": 98,
-        "EN": "painter",
-        "ES": "el pintor / la pintora",
-        "categoryId": "professions"
-    },
-    {
-        "id": 99,
-        "EN": "writer",
-        "ES": "el escritor / la escritora",
-        "categoryId": "professions"
-    },
-    {
-        "id": 100,
-        "EN": "dentist",
-        "ES": "el dentista / la dentista",
-        "categoryId": "professions"
-    },
-    {
-        "id": 101,
-        "EN": "electrician",
-        "ES": "el electricista / la electricista",
-        "categoryId": "professions"
-    },
-    {
-        "id": 102,
-        "EN": "boss",
-        "ES": "el jefe / la jefa",
-        "categoryId": "professions"
-    },
-    {
-        "id": 103,
-        "EN": "shop assistant",
-        "ES": "el dependiente / la dependienta",
-        "categoryId": "professions"
-    },
-    {
-        "id": 104,
-        "EN": "dancer",
-        "ES": "el bailarín / la bailarina",
-        "categoryId": "professions"
-    },
-    {
-        "id": 105,
-        "EN": "engineer",
-        "ES": "el ingeniero / la ingeniera",
-        "categoryId": "professions"
-    },
-    {
-        "id": 106,
-        "EN": "programmer",
-        "ES": "el programador / la programadora",
-        "categoryId": "professions"
-    },
-    {
-        "id": 107,
-        "EN": "driver",
-        "ES": "el conductor / la conductora",
-        "categoryId": "professions"
-    },
-    {
-        "id": 108,
-        "EN": "designer",
-        "ES": "el diseñador / la diseñadora",
-        "categoryId": "professions"
-    },
-    {
-        "id": 109,
-        "EN": "car",
-        "ES": "el coche",
-        "categoryId": "transportation"
-    },
-    {
-        "id": 110,
-        "EN": "plane",
-        "ES": "el avión",
-        "categoryId": "transportation"
-    },
-    {
-        "id": 111,
-        "EN": "boat",
-        "ES": "el barco",
-        "categoryId": "transportation"
-    },
-    {
-        "id": 112,
-        "EN": "train",
-        "ES": "el tren",
-        "categoryId": "transportation"
-    },
-    {
-        "id": 113,
-        "EN": "bus",
-        "ES": "el autobús",
-        "categoryId": "transportation"
-    },
-    {
-        "id": 114,
-        "EN": "underground / subway",
-        "ES": "el metro",
-        "categoryId": "transportation"
-    },
-    {
-        "id": 115,
-        "EN": "tram",
-        "ES": "el tranvía",
-        "categoryId": "transportation"
-    },
-    {
-        "id": 116,
-        "EN": "walking",
-        "ES": "andando",
-        "categoryId": "transportation"
-    },
-    {
-        "id": 117,
-        "EN": "on foot",
-        "ES": "a pie",
-        "categoryId": "transportation"
-    },
-    {
-        "id": 118,
-        "EN": "helicopter",
-        "ES": "el helicóptero",
-        "categoryId": "transportation"
-    },
-    {
-        "id": 119,
-        "EN": "bicycle",
-        "ES": "la bicicleta",
-        "categoryId": "transportation"
-    },
-    {
-        "id": 120,
-        "EN": "truck",
-        "ES": "el camión",
-        "categoryId": "transportation"
-    },
-    {
-        "id": 121,
-        "EN": "air ballon",
-        "ES": "el globo",
-        "categoryId": "transportation"
-    },
-    {
-        "id": 122,
-        "EN": "motorbike",
-        "ES": "la moto",
-        "categoryId": "transportation"
-    },
-    {
-        "id": 123,
-        "EN": "to call",
-        "ES": "llamar",
-        "categoryId": "ar verbs"
-    },
-    {
-        "id": 124,
-        "EN": "to speak",
-        "ES": "hablar",
-        "categoryId": "ar verbs"
-    },
-    {
-        "id": 125,
-        "EN": "to please",
-        "ES": "gustar",
-        "categoryId": "ar verbs"
-    },
-    {
-        "id": 126,
-        "EN": "to buy",
-        "ES": "comprar",
-        "categoryId": "ar verbs"
-    },
-    {
-        "id": 127,
-        "EN": "to have breakfast",
-        "ES": "desayunar",
-        "categoryId": "ar verbs"
-    },
-    {
-        "id": 128,
-        "EN": "to walk",
-        "ES": "caminar",
-        "categoryId": "ar verbs"
-    },
-    {
-        "id": 129,
-        "EN": "to listen to",
-        "ES": "escuchar",
-        "categoryId": "ar verbs"
-    },
-    {
-        "id": 130,
-        "EN": "to need",
-        "ES": "necesitar",
-        "categoryId": "ar verbs"
-    },
-    {
-        "id": 131,
-        "EN": "to change",
-        "ES": "cambiar",
-        "categoryId": "ar verbs"
-    },
-    {
-        "id": 132,
-        "EN": "to take / to drink",
-        "ES": "tomar",
-        "categoryId": "ar verbs"
-    },
-    {
-        "id": 133,
-        "EN": "to go down",
-        "ES": "bajar",
-        "categoryId": "ar verbs"
-    },
-    {
-        "id": 134,
-        "EN": "to ask",
-        "ES": "preguntar",
-        "categoryId": "ar verbs"
-    },
-    {
-        "id": 135,
-        "EN": "to wash",
-        "ES": "lavar",
-        "categoryId": "ar verbs"
-    },
-    {
-        "id": 136,
-        "EN": "to get in",
-        "ES": "entrar",
-        "categoryId": "ar verbs"
-    },
-    {
-        "id": 137,
-        "EN": "to wait",
-        "ES": "esperar",
-        "categoryId": "ar verbs"
-    },
-    {
-        "id": 138,
-        "EN": "to win",
-        "ES": "ganar",
-        "categoryId": "ar verbs"
-    },
-    {
-        "id": 139,
-        "EN": "to look",
-        "ES": "mirar",
-        "categoryId": "ar verbs"
-    },
-    {
-        "id": 140,
-        "EN": "to finish",
-        "ES": "terminar",
-        "categoryId": "ar verbs"
-    },
-    {
-        "id": 141,
-        "EN": "to arrive",
-        "ES": "llegar",
-        "categoryId": "ar verbs"
-    },
-    {
-        "id": 142,
-        "EN": "to love",
-        "ES": "amar",
-        "categoryId": "ar verbs"
-    },
-    {
-        "id": 143,
-        "EN": "to help",
-        "ES": "ayudar",
-        "categoryId": "ar verbs"
-    },
-    {
-        "id": 144,
-        "EN": "to adore",
-        "ES": "adorar",
-        "categoryId": "ar verbs"
-    },
-    {
-        "id": 145,
-        "EN": "to dance",
-        "ES": "bailar",
-        "categoryId": "ar verbs"
-    },
-    {
-        "id": 146,
-        "EN": "to sing",
-        "ES": "cantar",
-        "categoryId": "ar verbs"
-    },
-    {
-        "id": 147,
-        "EN": "to have dinner",
-        "ES": "cenar",
-        "categoryId": "ar verbs"
-    },
-    {
-        "id": 148,
-        "EN": "to cook",
-        "ES": "cocinar",
-        "categoryId": "ar verbs"
-    },
-    {
-        "id": 149,
-        "EN": "to care",
-        "ES": "cuidar",
-        "categoryId": "ar verbs"
-    },
-    {
-        "id": 150,
-        "EN": "to decorate",
-        "ES": "decorar",
-        "categoryId": "ar verbs"
-    },
-    {
-        "id": 151,
-        "EN": "to draw",
-        "ES": "dibujar",
-        "categoryId": "ar verbs"
-    },
-    {
-        "id": 152,
-        "EN": "to send",
-        "ES": "enviar",
-        "categoryId": "ar verbs"
-    },
-    {
-        "id": 153,
-        "EN": "to study",
-        "ES": "estudiar",
-        "categoryId": "ar verbs"
-    },
-    {
-        "id": 154,
-        "EN": "to throw",
-        "ES": "lanzar",
-        "categoryId": "ar verbs"
-    },
-    {
-        "id": 155,
-        "EN": "to fill up",
-        "ES": "llenar",
-        "categoryId": "ar verbs"
-    },
-    {
-        "id": 156,
-        "EN": "to carry / to wear",
-        "ES": "llevar",
-        "categoryId": "ar verbs"
-    },
-    {
-        "id": 157,
-        "EN": "to clean",
-        "ES": "limpiar",
-        "categoryId": "ar verbs"
-    },
-    {
-        "id": 158,
-        "EN": "to kill",
-        "ES": "matar",
-        "categoryId": "ar verbs"
-    },
-    {
-        "id": 159,
-        "EN": "to swim",
-        "ES": "nadar",
-        "categoryId": "ar verbs"
-    },
-    {
-        "id": 160,
-        "EN": "to hate",
-        "ES": "odiar",
-        "categoryId": "ar verbs"
-    },
-    {
-        "id": 161,
-        "EN": "to forget",
-        "ES": "olvidar",
-        "categoryId": "ar verbs"
-    },
-    {
-        "id": 162,
-        "EN": "to practice",
-        "ES": "practicar",
-        "categoryId": "ar verbs"
-    },
-    {
-        "id": 163,
-        "EN": "to iron",
-        "ES": "planchar",
-        "categoryId": "ar verbs"
-    },
-    {
-        "id": 164,
-        "EN": "to paint",
-        "ES": "pintar",
-        "categoryId": "ar verbs"
-    },
-    {
-        "id": 165,
-        "EN": "to work",
-        "ES": "trabajar",
-        "categoryId": "ar verbs"
-    },
-    {
-        "id": 166,
-        "EN": "to travel",
-        "ES": "viajar",
-        "categoryId": "ar verbs"
-    },
-    {
-        "id": 167,
-        "EN": "personal details",
-        "ES": "los datos personales",
-        "categoryId": "personal details"
-    },
-    {
-        "id": 168,
-        "EN": "name",
-        "ES": "el nombre",
-        "categoryId": "personal details"
-    },
-    {
-        "id": 169,
-        "EN": "surname",
-        "ES": "el apellido",
-        "categoryId": "personal details"
-    },
-    {
-        "id": 170,
-        "EN": "age",
-        "ES": "la edad",
-        "categoryId": "personal details"
-    },
-    {
-        "id": 171,
-        "EN": "marital status",
-        "ES": "el estado civil",
-        "categoryId": "personal details"
-    },
-    {
-        "id": 172,
-        "EN": "nationality",
-        "ES": "la nacionalidad",
-        "categoryId": "personal details"
-    },
-    {
-        "id": 173,
-        "EN": "country",
-        "ES": "el país",
-        "categoryId": "personal details"
-    },
-    {
-        "id": 174,
-        "EN": "address",
-        "ES": "la dirección",
-        "categoryId": "personal details"
-    },
-    {
-        "id": 175,
-        "EN": "city",
-        "ES": "la ciudad",
-        "categoryId": "personal details"
-    },
-    {
-        "id": 176,
-        "EN": "floor",
-        "ES": "el piso",
-        "categoryId": "personal details"
-    },
-    {
-        "id": 177,
-        "EN": "staircase",
-        "ES": "la escalera",
-        "categoryId": "personal details"
-    },
-    {
-        "id": 178,
-        "EN": "postcode",
-        "ES": "el código postal",
-        "categoryId": "personal details"
-    },
-    {
-        "id": 179,
-        "EN": "e-mail",
-        "ES": "el correo electrónico",
-        "categoryId": "personal details"
-    },
-    {
-        "id": 180,
-        "EN": "phone number",
-        "ES": "el número de teléfono",
-        "categoryId": "personal details"
-    },
-    {
-        "id": 181,
-        "EN": "form",
-        "ES": "el formulario",
-        "categoryId": "personal details"
-    },
-    {
-        "id": 182,
-        "EN": "to sign",
-        "ES": "firmar",
-        "categoryId": "personal details"
-    },
-    {
-        "id": 183,
-        "EN": "signature",
-        "ES": "la firma",
-        "categoryId": "personal details"
-    },
-    {
-        "id": 184,
-        "EN": "to pay",
-        "ES": "pagar",
-        "categoryId": "shopping - clothes"
-    },
-    {
-        "id": 185,
-        "EN": "to pay in cash",
-        "ES": "pagar en efectivo",
-        "categoryId": "shopping - clothes"
-    },
-    {
-        "id": 186,
-        "EN": "to pay by card",
-        "ES": "pagar con tarjeta",
-        "categoryId": "shopping - clothes"
-    },
-    {
-        "id": 187,
-        "EN": "to go shopping",
-        "ES": "ir de compras",
-        "categoryId": "shopping - clothes"
-    },
-    {
-        "id": 188,
-        "EN": "to sell",
-        "ES": "vender",
-        "categoryId": "shopping - clothes"
-    },
-    {
-        "id": 189,
-        "EN": "size",
-        "ES": "la talla",
-        "categoryId": "shopping - clothes"
-    },
-    {
-        "id": 190,
-        "EN": "small size",
-        "ES": "la talla pequeña",
-        "categoryId": "shopping - clothes"
-    },
-    {
-        "id": 191,
-        "EN": "medium size",
-        "ES": "la talla mediana",
-        "categoryId": "shopping - clothes"
-    },
-    {
-        "id": 192,
-        "EN": "large size",
-        "ES": "la talla grande",
-        "categoryId": "shopping - clothes"
-    },
-    {
-        "id": 193,
-        "EN": "another size",
-        "ES": "otra talla",
-        "categoryId": "shopping - clothes"
-    },
-    {
-        "id": 194,
-        "EN": "to try on",
-        "ES": "probar",
-        "categoryId": "shopping - clothes"
-    },
-    {
-        "id": 195,
-        "EN": "changing rooms",
-        "ES": "los probadores",
-        "categoryId": "shopping - clothes"
-    },
-    {
-        "id": 196,
-        "EN": "client",
-        "ES": "el cliente / la clienta",
-        "categoryId": "shopping - clothes"
-    },
-    {
-        "id": 197,
-        "EN": "till / cash register",
-        "ES": "la caja",
-        "categoryId": "shopping - clothes"
-    },
-    {
-        "id": 198,
-        "EN": "queue",
-        "ES": "la cola",
-        "categoryId": "shopping - clothes"
-    },
-    {
-        "id": 199,
-        "EN": "pretty",
-        "ES": "bonito / bonita",
-        "categoryId": "shopping - clothes"
-    },
-    {
-        "id": 200,
-        "EN": "ugly",
-        "ES": "feo / fea",
-        "categoryId": "shopping - clothes"
-    },
-    {
-        "id": 201,
-        "EN": "expensive",
-        "ES": "caro / cara",
-        "categoryId": "shopping - clothes"
-    },
-    {
-        "id": 202,
-        "EN": "cheap",
-        "ES": "barato / barata",
-        "categoryId": "shopping - clothes"
-    },
-    {
-        "id": 203,
-        "EN": "shirt",
-        "ES": "la camisa",
-        "categoryId": "shopping - clothes"
-    },
-    {
-        "id": 204,
-        "EN": "t-shirt",
-        "ES": "la camiseta",
-        "categoryId": "shopping - clothes"
-    },
-    {
-        "id": 205,
-        "EN": "trousers / pants",
-        "ES": "los pantalones",
-        "categoryId": "shopping - clothes"
-    },
-    {
-        "id": 206,
-        "EN": "skirt",
-        "ES": "la falda",
-        "categoryId": "shopping - clothes"
-    },
-    {
-        "id": 207,
-        "EN": "dress",
-        "ES": "el vestido",
-        "categoryId": "shopping - clothes"
-    },
-    {
-        "id": 208,
-        "EN": "shoes",
-        "ES": "los zapatos",
-        "categoryId": "shopping - clothes"
-    },
-    {
-        "id": 209,
-        "EN": "handbag",
-        "ES": "el bolso",
-        "categoryId": "shopping - clothes"
-    },
-    {
-        "id": 210,
-        "EN": "It fits me",
-        "ES": "Me queda bien",
-        "categoryId": "shopping - clothes"
-    },
-    {
-        "id": 211,
-        "EN": "It doesn't fit me",
-        "ES": "Me queda mal",
-        "categoryId": "shopping - clothes"
-    },
-    {
-        "id": 212,
-        "EN": "I am taking it",
-        "ES": "Me lo llevo",
-        "categoryId": "shopping - clothes"
-    },
-    {
-        "id": 213,
-        "EN": "How much does it cost?",
-        "ES": "¿cuánto cuesta? / ¿cuánto vale?",
-        "categoryId": "shopping - clothes"
-    },
-    {
-        "id": 214,
-        "EN": "It costs...",
-        "ES": "Cuesta... / Vale...",
-        "categoryId": "shopping - clothes"
-    },
-    {
-        "id": 215,
-        "EN": "color",
-        "ES": "color",
-        "categoryId": "shopping - clothes"
-    },
-    {
-        "id": 216,
-        "EN": "shoe size",
-        "ES": "número de zapato / número de pie",
-        "categoryId": "shopping - clothes"
-    },
-    {
-        "id": 217,
-        "EN": "I prefer...",
-        "ES": "Prefiero...",
-        "categoryId": "shopping - clothes"
-    },
-    {
-        "id": 218,
-        "EN": "lift / elevator",
-        "ES": "el ascensor",
-        "categoryId": "shopping - clothes"
-    },
-    {
-        "id": 219,
-        "EN": "discount",
-        "ES": "el descuento",
-        "categoryId": "shopping - clothes"
-    },
-    {
-        "id": 220,
-        "EN": "offer",
-        "ES": "la oferta",
-        "categoryId": "shopping - clothes"
-    },
-    {
-        "id": 221,
-        "EN": "sales",
-        "ES": "las rebajas",
-        "categoryId": "shopping - clothes"
-    },
-    {
-        "id": 222,
-        "EN": "to learn",
-        "ES": "aprender",
-        "categoryId": "er verbs"
-    },
-    {
-        "id": 223,
-        "EN": "to drink",
-        "ES": "beber",
-        "categoryId": "er verbs"
-    },
-    {
-        "id": 224,
-        "EN": "to eat",
-        "ES": "comer",
-        "categoryId": "er verbs"
-    },
-    {
-        "id": 225,
-        "EN": "to understand",
-        "ES": "comprender",
-        "categoryId": "er verbs"
-    },
-    {
-        "id": 226,
-        "EN": "to run",
-        "ES": "correr",
-        "categoryId": "er verbs"
-    },
-    {
-        "id": 227,
-        "EN": "must",
-        "ES": "deber",
-        "categoryId": "er verbs"
-    },
-    {
-        "id": 228,
-        "EN": "to hide",
-        "ES": "esconder",
-        "categoryId": "er verbs"
-    },
-    {
-        "id": 229,
-        "EN": "to choose",
-        "ES": "escoger",
-        "categoryId": "er verbs"
-    },
-    {
-        "id": 230,
-        "EN": "to read",
-        "ES": "leer",
-        "categoryId": "er verbs"
-    },
-    {
-        "id": 231,
-        "EN": "to put (in)",
-        "ES": "meter (en)",
-        "categoryId": "er verbs"
-    },
-    {
-        "id": 232,
-        "EN": "to promise",
-        "ES": "prometer",
-        "categoryId": "er verbs"
-    },
-    {
-        "id": 233,
-        "EN": "to respond",
-        "ES": "responder",
-        "categoryId": "er verbs"
-    },
-    {
-        "id": 234,
-        "EN": "to break",
-        "ES": "romper",
-        "categoryId": "er verbs"
-    },
-    {
-        "id": 235,
-        "EN": "to fear",
-        "ES": "temer",
-        "categoryId": "er verbs"
-    },
-    {
-        "id": 236,
-        "EN": "to cough",
-        "ES": "toser",
-        "categoryId": "er verbs"
-    },
-    {
-        "id": 237,
-        "EN": "to sell",
-        "ES": "vender",
-        "categoryId": "er verbs"
-    },
-    {
-        "id": 238,
-        "EN": "to surprise",
-        "ES": "sorprender",
-        "categoryId": "er verbs"
-    },
-    {
-        "id": 239,
-        "EN": "to break / to tear",
-        "ES": "romper",
-        "categoryId": "er verbs"
-    },
-    {
-        "id": 240,
-        "EN": "to proceed",
-        "ES": "proceder",
-        "categoryId": "er verbs"
-    },
-    {
-        "id": 241,
-        "EN": "to switch on / to grab",
-        "ES": "prender",
-        "categoryId": "er verbs"
-    },
-    {
-        "id": 242,
-        "EN": "to possess / to hold",
-        "ES": "poseer",
-        "categoryId": "er verbs"
-    },
-    {
-        "id": 243,
-        "EN": "to exceed",
-        "ES": "exceder",
-        "categoryId": "er verbs"
-    },
-    {
-        "id": 244,
-        "EN": "to absorb",
-        "ES": "absorber",
-        "categoryId": "er verbs"
-    },
-    {
-        "id": 245,
-        "EN": "boat",
-        "ES": "el barco",
-        "categoryId": "revision"
-    },
-    {
-        "id": 246,
-        "EN": "truck",
-        "ES": "el camión",
-        "categoryId": "revision"
-    },
-    {
-        "id": 247,
-        "EN": "walking",
-        "ES": "andando",
-        "categoryId": "revision"
-    },
-    {
-        "id": 248,
-        "EN": "on foot",
-        "ES": "a pie",
-        "categoryId": "revision"
-    },
-    {
-        "id": 249,
-        "EN": "to call",
-        "ES": "llamar",
-        "categoryId": "revision"
-    },
-    {
-        "id": 250,
-        "EN": "to buy",
-        "ES": "comprar",
-        "categoryId": "revision"
-    },
-    {
-        "id": 251,
-        "EN": "to have breakfast",
-        "ES": "desayunar",
-        "categoryId": "revision"
-    },
-    {
-        "id": 252,
-        "EN": "to walk",
-        "ES": "caminar",
-        "categoryId": "revision"
-    },
-    {
-        "id": 253,
-        "EN": "to change",
-        "ES": "cambiar",
-        "categoryId": "revision"
-    },
-    {
-        "id": 254,
-        "EN": "to take / to drink",
-        "ES": "tomar",
-        "categoryId": "revision"
-    },
-    {
-        "id": 255,
-        "EN": "to go down",
-        "ES": "bajar",
-        "categoryId": "revision"
-    },
-    {
-        "id": 256,
-        "EN": "to wash",
-        "ES": "lavar",
-        "categoryId": "revision"
-    },
-    {
-        "id": 257,
-        "EN": "to wait",
-        "ES": "esperar",
-        "categoryId": "revision"
-    },
-    {
-        "id": 258,
-        "EN": "to win",
-        "ES": "ganar",
-        "categoryId": "revision"
-    },
-    {
-        "id": 259,
-        "EN": "to arrive",
-        "ES": "llegar",
-        "categoryId": "revision"
-    },
-    {
-        "id": 260,
-        "EN": "to have dinner",
-        "ES": "cenar",
-        "categoryId": "revision"
-    },
-    {
-        "id": 261,
-        "EN": "to care",
-        "ES": "cuidar",
-        "categoryId": "revision"
-    },
-    {
-        "id": 262,
-        "EN": "to draw",
-        "ES": "dibujar",
-        "categoryId": "revision"
-    },
-    {
-        "id": 263,
-        "EN": "to send",
-        "ES": "enviar",
-        "categoryId": "revision"
-    },
-    {
-        "id": 264,
-        "EN": "to throw",
-        "ES": "lanzar",
-        "categoryId": "revision"
-    },
-    {
-        "id": 265,
-        "EN": "to fill up",
-        "ES": "llenar",
-        "categoryId": "revision"
-    },
-    {
-        "id": 266,
-        "EN": "to carry / to wear",
-        "ES": "llevar",
-        "categoryId": "revision"
-    },
-    {
-        "id": 267,
-        "EN": "to clean",
-        "ES": "limpiar",
-        "categoryId": "revision"
-    },
-    {
-        "id": 268,
-        "EN": "to hate",
-        "ES": "odiar",
-        "categoryId": "revision"
-    },
-    {
-        "id": 269,
-        "EN": "to forget",
-        "ES": "olvidar",
-        "categoryId": "revision"
-    },
-    {
-        "id": 270,
-        "EN": "to iron",
-        "ES": "planchar",
-        "categoryId": "revision"
-    },
-    {
-        "id": 271,
-        "EN": "to travel",
-        "ES": "viajar",
-        "categoryId": "revision"
-    },
-    {
-        "id": 272,
-        "EN": "boat",
-        "ES": "el barco",
-        "categoryId": "revision"
-    },
-    {
-        "id": 273,
-        "EN": "truck",
-        "ES": "el camión",
-        "categoryId": "revision"
-    },
-    {
-        "id": 274,
-        "EN": "walking",
-        "ES": "andando",
-        "categoryId": "revision"
-    },
-    {
-        "id": 275,
-        "EN": "on foot",
-        "ES": "a pie",
-        "categoryId": "revision"
-    },
-    {
-        "id": 276,
-        "EN": "to call",
-        "ES": "llamar",
-        "categoryId": "revision"
-    },
-    {
-        "id": 277,
-        "EN": "to buy",
-        "ES": "comprar",
-        "categoryId": "revision"
-    },
-    {
-        "id": 278,
-        "EN": "to have breakfast",
-        "ES": "desayunar",
-        "categoryId": "revision"
-    },
-    {
-        "id": 279,
-        "EN": "to walk",
-        "ES": "caminar",
-        "categoryId": "revision"
-    },
-    {
-        "id": 280,
-        "EN": "to change",
-        "ES": "cambiar",
-        "categoryId": "revision"
-    },
-    {
-        "id": 281,
-        "EN": "to take / to drink",
-        "ES": "tomar",
-        "categoryId": "revision"
-    },
-    {
-        "id": 282,
-        "EN": "to go down",
-        "ES": "bajar",
-        "categoryId": "revision"
-    },
-    {
-        "id": 283,
-        "EN": "to wash",
-        "ES": "lavar",
-        "categoryId": "revision"
-    },
-    {
-        "id": 284,
-        "EN": "to wait",
-        "ES": "esperar",
-        "categoryId": "revision"
-    },
-    {
-        "id": 285,
-        "EN": "to win",
-        "ES": "ganar",
-        "categoryId": "revision"
-    },
-    {
-        "id": 286,
-        "EN": "to arrive",
-        "ES": "llegar",
-        "categoryId": "revision"
-    },
-    {
-        "id": 287,
-        "EN": "to have dinner",
-        "ES": "cenar",
-        "categoryId": "revision"
-    },
-    {
-        "id": 288,
-        "EN": "to care",
-        "ES": "cuidar",
-        "categoryId": "revision"
-    },
-    {
-        "id": 289,
-        "EN": "to draw",
-        "ES": "dibujar",
-        "categoryId": "revision"
-    },
-    {
-        "id": 290,
-        "EN": "to send",
-        "ES": "enviar",
-        "categoryId": "revision"
-    },
-    {
-        "id": 291,
-        "EN": "to throw",
-        "ES": "lanzar",
-        "categoryId": "revision"
-    },
-    {
-        "id": 292,
-        "EN": "to fill up",
-        "ES": "llenar",
-        "categoryId": "revision"
-    },
-    {
-        "id": 293,
-        "EN": "to carry / to wear",
-        "ES": "llevar",
-        "categoryId": "revision"
-    },
-    {
-        "id": 294,
-        "EN": "to clean",
-        "ES": "limpiar",
-        "categoryId": "revision"
-    },
-    {
-        "id": 295,
-        "EN": "to hate",
-        "ES": "odiar",
-        "categoryId": "revision"
-    },
-    {
-        "id": 296,
-        "EN": "to forget",
-        "ES": "olvidar",
-        "categoryId": "revision"
-    },
-    {
-        "id": 297,
-        "EN": "to iron",
-        "ES": "planchar",
-        "categoryId": "revision"
-    },
-    {
-        "id": 298,
-        "EN": "to travel",
-        "ES": "viajar",
-        "categoryId": "revision"
-    }
+  {
+    "id": 1,
+    "EN": "What's the weather like today?",
+    "ES": "¿Qué tiempo hace hoy?",
+    "categoryId": "weather"
+  },
+  {
+    "id": 2,
+    "EN": "It is cold",
+    "ES": "Hace frío",
+    "categoryId": "weather"
+  },
+  {
+    "id": 3,
+    "EN": "It is hot",
+    "ES": "Hace calor",
+    "categoryId": "weather"
+  },
+  {
+    "id": 4,
+    "EN": "It is windy",
+    "ES": "Hace viento",
+    "categoryId": "weather"
+  },
+  {
+    "id": 5,
+    "EN": "It is sunny",
+    "ES": "Hace sol / Está soleado",
+    "categoryId": "weather"
+  },
+  {
+    "id": 6,
+    "EN": "It is 25 degrees",
+    "ES": "Hace 25 grados",
+    "categoryId": "weather"
+  },
+  {
+    "id": 7,
+    "EN": "It is cloudy",
+    "ES": "Está nublado",
+    "categoryId": "weather"
+  },
+  {
+    "id": 8,
+    "EN": "There are clear skies",
+    "ES": "Está despejado",
+    "categoryId": "weather"
+  },
+  {
+    "id": 9,
+    "EN": "It is raining",
+    "ES": "Está lloviendo",
+    "categoryId": "weather"
+  },
+  {
+    "id": 10,
+    "EN": "It is snowing",
+    "ES": "Está nevando",
+    "categoryId": "weather"
+  },
+  {
+    "id": 11,
+    "EN": "There is fog",
+    "ES": "Hay niebla",
+    "categoryId": "weather",
+    "isUsed": true
+  },
+  {
+    "id": 12,
+    "EN": "There is lightning",
+    "ES": "Hay relámpagos",
+    "categoryId": "weather"
+  },
+  {
+    "id": 13,
+    "EN": "There is a storm",
+    "ES": "Hay tormenta",
+    "categoryId": "weather"
+  },
+  {
+    "id": 14,
+    "EN": "There is thunder",
+    "ES": "Hay truenos",
+    "categoryId": "weather"
+  },
+  {
+    "id": 15,
+    "EN": "There is a rainbow",
+    "ES": "Hay un arcoíris",
+    "categoryId": "weather"
+  },
+  {
+    "id": 16,
+    "EN": "The temperature is low",
+    "ES": "Las temperaturas son bajas",
+    "categoryId": "weather"
+  },
+  {
+    "id": 17,
+    "EN": "The temperature is moderate",
+    "ES": "Las temperaturas son moderadas",
+    "categoryId": "weather"
+  },
+  {
+    "id": 18,
+    "EN": "The temperature is high",
+    "ES": "Las temperaturas son altas",
+    "categoryId": "weather"
+  },
+  {
+    "id": 19,
+    "EN": "cat",
+    "ES": "el gato / la gata",
+    "categoryId": "animals"
+  },
+  {
+    "id": 20,
+    "EN": "dog",
+    "ES": "el perro / la perra",
+    "categoryId": "animals"
+  },
+  {
+    "id": 21,
+    "EN": "horse",
+    "ES": "el caballo",
+    "categoryId": "animals"
+  },
+  {
+    "id": 22,
+    "EN": "mare",
+    "ES": "la yegua",
+    "categoryId": "animals"
+  },
+  {
+    "id": 23,
+    "EN": "bear",
+    "ES": "el oso / la osa",
+    "categoryId": "animals"
+  },
+  {
+    "id": 24,
+    "EN": "monkey",
+    "ES": "el mono / la mona",
+    "categoryId": "animals"
+  },
+  {
+    "id": 25,
+    "EN": "bull",
+    "ES": "el toro",
+    "categoryId": "animals"
+  },
+  {
+    "id": 26,
+    "EN": "cow",
+    "ES": "la vaca",
+    "categoryId": "animals"
+  },
+  {
+    "id": 27,
+    "EN": "ram",
+    "ES": "el carnero",
+    "categoryId": "animals"
+  },
+  {
+    "id": 28,
+    "EN": "sheep",
+    "ES": "la oveja",
+    "categoryId": "animals"
+  },
+  {
+    "id": 29,
+    "EN": "donkey",
+    "ES": "el burro / la burra",
+    "categoryId": "animals"
+  },
+  {
+    "id": 30,
+    "EN": "giraffe",
+    "ES": "la jirafa",
+    "categoryId": "animals"
+  },
+  {
+    "id": 31,
+    "EN": "elephant",
+    "ES": "el elefante / la elefanta",
+    "categoryId": "animals"
+  },
+  {
+    "id": 32,
+    "EN": "pig",
+    "ES": "el cerdo / la cerda",
+    "categoryId": "animals"
+  },
+  {
+    "id": 33,
+    "EN": "calf",
+    "ES": "el ternero / la ternera",
+    "categoryId": "animals"
+  },
+  {
+    "id": 34,
+    "EN": "cock",
+    "ES": "el gallo",
+    "categoryId": "animals"
+  },
+  {
+    "id": 35,
+    "EN": "hen",
+    "ES": "la gallina",
+    "categoryId": "animals"
+  },
+  {
+    "id": 36,
+    "EN": "chicken",
+    "ES": "el pollo",
+    "categoryId": "animals"
+  },
+  {
+    "id": 37,
+    "EN": "sad chicken",
+    "ES": "el pollo triste",
+    "categoryId": "animals"
+  },
+  {
+    "id": 38,
+    "EN": "happy chicken",
+    "ES": "el pollo feliz",
+    "categoryId": "animals"
+  },
+  {
+    "id": 39,
+    "EN": "spider",
+    "ES": "la araña",
+    "categoryId": "animals"
+  },
+  {
+    "id": 40,
+    "EN": "mouse",
+    "ES": "el ratón",
+    "categoryId": "animals"
+  },
+  {
+    "id": 41,
+    "EN": "rat",
+    "ES": "el rato / la rata",
+    "categoryId": "animals"
+  },
+  {
+    "id": 42,
+    "EN": "frog",
+    "ES": "la rana",
+    "categoryId": "animals"
+  },
+  {
+    "id": 43,
+    "EN": "bird",
+    "ES": "el pájaro",
+    "categoryId": "animals"
+  },
+  {
+    "id": 44,
+    "EN": "fly",
+    "ES": "la mosca",
+    "categoryId": "animals"
+  },
+  {
+    "id": 45,
+    "EN": "fish",
+    "ES": "el pescado",
+    "categoryId": "animals"
+  },
+  {
+    "id": 46,
+    "EN": "turtle",
+    "ES": "la tortuga",
+    "categoryId": "animals"
+  },
+  {
+    "id": 47,
+    "EN": "whale",
+    "ES": "la ballena",
+    "categoryId": "animals"
+  },
+  {
+    "id": 48,
+    "EN": "dolphin",
+    "ES": "el delfín",
+    "categoryId": "animals"
+  },
+  {
+    "id": 49,
+    "EN": "crab",
+    "ES": "el cangrejo",
+    "categoryId": "animals"
+  },
+  {
+    "id": 50,
+    "EN": "shark",
+    "ES": "el tiburón",
+    "categoryId": "animals"
+  },
+  {
+    "id": 51,
+    "EN": "room",
+    "ES": "la habitación",
+    "categoryId": "room"
+  },
+  {
+    "id": 52,
+    "EN": "bed",
+    "ES": "la cama",
+    "categoryId": "room"
+  },
+  {
+    "id": 53,
+    "EN": "curtains",
+    "ES": "las cortinas",
+    "categoryId": "room"
+  },
+  {
+    "id": 54,
+    "EN": "poster",
+    "ES": "el póster",
+    "categoryId": "room"
+  },
+  {
+    "id": 55,
+    "EN": "mirror",
+    "ES": "el espejo",
+    "categoryId": "room"
+  },
+  {
+    "id": 56,
+    "EN": "desk",
+    "ES": "el escritorio",
+    "categoryId": "room"
+  },
+  {
+    "id": 57,
+    "EN": "computer",
+    "ES": "el ordenador",
+    "categoryId": "room"
+  },
+  {
+    "id": 58,
+    "EN": "chair",
+    "ES": "la silla",
+    "categoryId": "room"
+  },
+  {
+    "id": 59,
+    "EN": "table",
+    "ES": "la mesa",
+    "categoryId": "room"
+  },
+  {
+    "id": 60,
+    "EN": "chest of drawers",
+    "ES": "la cómoda",
+    "categoryId": "room"
+  },
+  {
+    "id": 61,
+    "EN": "wardrobe",
+    "ES": "el armario",
+    "categoryId": "room"
+  },
+  {
+    "id": 62,
+    "EN": "lamp",
+    "ES": "la lámpara",
+    "categoryId": "room"
+  },
+  {
+    "id": 63,
+    "EN": "shelf",
+    "ES": "la estantería",
+    "categoryId": "room"
+  },
+  {
+    "id": 64,
+    "EN": "pillow",
+    "ES": "la almohada",
+    "categoryId": "room"
+  },
+  {
+    "id": 65,
+    "EN": "sheet",
+    "ES": "la sábana",
+    "categoryId": "room"
+  },
+  {
+    "id": 66,
+    "EN": "blanket",
+    "ES": "la manta",
+    "categoryId": "room"
+  },
+  {
+    "id": 67,
+    "EN": "bedcover",
+    "ES": "la colcha",
+    "categoryId": "room"
+  },
+  {
+    "id": 68,
+    "EN": "duvet",
+    "ES": "el edredón",
+    "categoryId": "room"
+  },
+  {
+    "id": 69,
+    "EN": "pillowcase",
+    "ES": "la funda de almohada",
+    "categoryId": "room"
+  },
+  {
+    "id": 70,
+    "EN": "duvet cover",
+    "ES": "la funda nórdica",
+    "categoryId": "room"
+  },
+  {
+    "id": 71,
+    "EN": "bedside table",
+    "ES": "la mesita de noche",
+    "categoryId": "room"
+  },
+  {
+    "id": 72,
+    "EN": "rug",
+    "ES": "la alfombra",
+    "categoryId": "room"
+  },
+  {
+    "id": 73,
+    "EN": "carpet",
+    "ES": "la moqueta",
+    "categoryId": "room"
+  },
+  {
+    "id": 74,
+    "EN": "window",
+    "ES": "la ventana",
+    "categoryId": "room"
+  },
+  {
+    "id": 75,
+    "EN": "door",
+    "ES": "la puerta",
+    "categoryId": "room"
+  },
+  {
+    "id": 76,
+    "EN": "wall",
+    "ES": "la pared",
+    "categoryId": "room"
+  },
+  {
+    "id": 77,
+    "EN": "floor",
+    "ES": "el suelo",
+    "categoryId": "room"
+  },
+  {
+    "id": 78,
+    "EN": "ceiling",
+    "ES": "el techo",
+    "categoryId": "room"
+  },
+  {
+    "id": 79,
+    "EN": "roof",
+    "ES": "el tejado",
+    "categoryId": "room"
+  },
+  {
+    "id": 80,
+    "EN": "cook",
+    "ES": "el cocinero / la cocinera",
+    "categoryId": "professions"
+  },
+  {
+    "id": 81,
+    "EN": "waiter / waitress",
+    "ES": "el camarero / la camarera",
+    "categoryId": "professions"
+  },
+  {
+    "id": 82,
+    "EN": "lawyer",
+    "ES": "el abogado / la abogada",
+    "categoryId": "professions"
+  },
+  {
+    "id": 83,
+    "EN": "architect",
+    "ES": "el arquitecto / la arquitecta",
+    "categoryId": "professions"
+  },
+  {
+    "id": 84,
+    "EN": "doctor",
+    "ES": "el médico / la médica",
+    "categoryId": "professions"
+  },
+  {
+    "id": 85,
+    "EN": "nurse",
+    "ES": "el enfermero / la enfermera",
+    "categoryId": "professions"
+  },
+  {
+    "id": 86,
+    "EN": "teacher",
+    "ES": "el profesor / la profesora",
+    "categoryId": "professions"
+  },
+  {
+    "id": 87,
+    "EN": "firefighter",
+    "ES": "el bombero / la bombera",
+    "categoryId": "professions"
+  },
+  {
+    "id": 88,
+    "EN": "minister",
+    "ES": "el ministro / la ministra",
+    "categoryId": "professions"
+  },
+  {
+    "id": 89,
+    "EN": "carpenter",
+    "ES": "el carpintero / la carpintera",
+    "categoryId": "professions"
+  },
+  {
+    "id": 90,
+    "EN": "gardener",
+    "ES": "el jardinero / la jardinera",
+    "categoryId": "professions"
+  },
+  {
+    "id": 91,
+    "EN": "postman",
+    "ES": "el cartero / la cartera",
+    "categoryId": "professions"
+  },
+  {
+    "id": 92,
+    "EN": "administrator",
+    "ES": "el administrativo / la administrativa",
+    "categoryId": "professions"
+  },
+  {
+    "id": 93,
+    "EN": "butcher",
+    "ES": "el carnicero / la carnicera",
+    "categoryId": "professions"
+  },
+  {
+    "id": 94,
+    "EN": "plumber",
+    "ES": "el fontanero / la fontanera",
+    "categoryId": "professions"
+  },
+  {
+    "id": 95,
+    "EN": "hairdresser",
+    "ES": "el peluquero / la peluquera",
+    "categoryId": "professions"
+  },
+  {
+    "id": 96,
+    "EN": "salesman",
+    "ES": "el vendedor / la vendedora",
+    "categoryId": "professions"
+  },
+  {
+    "id": 97,
+    "EN": "manager",
+    "ES": "el director / la directora",
+    "categoryId": "professions"
+  },
+  {
+    "id": 98,
+    "EN": "painter",
+    "ES": "el pintor / la pintora",
+    "categoryId": "professions"
+  },
+  {
+    "id": 99,
+    "EN": "writer",
+    "ES": "el escritor / la escritora",
+    "categoryId": "professions"
+  },
+  {
+    "id": 100,
+    "EN": "dentist",
+    "ES": "el dentista / la dentista",
+    "categoryId": "professions"
+  },
+  {
+    "id": 101,
+    "EN": "electrician",
+    "ES": "el electricista / la electricista",
+    "categoryId": "professions"
+  },
+  {
+    "id": 102,
+    "EN": "boss",
+    "ES": "el jefe / la jefa",
+    "categoryId": "professions"
+  },
+  {
+    "id": 103,
+    "EN": "shop assistant",
+    "ES": "el dependiente / la dependienta",
+    "categoryId": "professions"
+  },
+  {
+    "id": 104,
+    "EN": "dancer",
+    "ES": "el bailarín / la bailarina",
+    "categoryId": "professions"
+  },
+  {
+    "id": 105,
+    "EN": "engineer",
+    "ES": "el ingeniero / la ingeniera",
+    "categoryId": "professions"
+  },
+  {
+    "id": 106,
+    "EN": "programmer",
+    "ES": "el programador / la programadora",
+    "categoryId": "professions"
+  },
+  {
+    "id": 107,
+    "EN": "driver",
+    "ES": "el conductor / la conductora",
+    "categoryId": "professions"
+  },
+  {
+    "id": 108,
+    "EN": "designer",
+    "ES": "el diseñador / la diseñadora",
+    "categoryId": "professions"
+  },
+  {
+    "id": 109,
+    "EN": "car",
+    "ES": "el coche",
+    "categoryId": "transportation"
+  },
+  {
+    "id": 110,
+    "EN": "plane",
+    "ES": "el avión",
+    "categoryId": "transportation"
+  },
+  {
+    "id": 111,
+    "EN": "boat",
+    "ES": "el barco",
+    "categoryId": "transportation"
+  },
+  {
+    "id": 112,
+    "EN": "train",
+    "ES": "el tren",
+    "categoryId": "transportation"
+  },
+  {
+    "id": 113,
+    "EN": "bus",
+    "ES": "el autobús",
+    "categoryId": "transportation"
+  },
+  {
+    "id": 114,
+    "EN": "underground / subway",
+    "ES": "el metro",
+    "categoryId": "transportation"
+  },
+  {
+    "id": 115,
+    "EN": "tram",
+    "ES": "el tranvía",
+    "categoryId": "transportation"
+  },
+  {
+    "id": 116,
+    "EN": "walking",
+    "ES": "andando",
+    "categoryId": "transportation"
+  },
+  {
+    "id": 117,
+    "EN": "on foot",
+    "ES": "a pie",
+    "categoryId": "transportation"
+  },
+  {
+    "id": 118,
+    "EN": "helicopter",
+    "ES": "el helicóptero",
+    "categoryId": "transportation"
+  },
+  {
+    "id": 119,
+    "EN": "bicycle",
+    "ES": "la bicicleta",
+    "categoryId": "transportation"
+  },
+  {
+    "id": 120,
+    "EN": "truck",
+    "ES": "el camión",
+    "categoryId": "transportation"
+  },
+  {
+    "id": 121,
+    "EN": "air ballon",
+    "ES": "el globo",
+    "categoryId": "transportation"
+  },
+  {
+    "id": 122,
+    "EN": "motorbike",
+    "ES": "la moto",
+    "categoryId": "transportation"
+  },
+  {
+    "id": 123,
+    "EN": "to call",
+    "ES": "llamar",
+    "categoryId": "ar verbs"
+  },
+  {
+    "id": 124,
+    "EN": "to speak",
+    "ES": "hablar",
+    "categoryId": "ar verbs"
+  },
+  {
+    "id": 125,
+    "EN": "to please",
+    "ES": "gustar",
+    "categoryId": "ar verbs"
+  },
+  {
+    "id": 126,
+    "EN": "to buy",
+    "ES": "comprar",
+    "categoryId": "ar verbs"
+  },
+  {
+    "id": 127,
+    "EN": "to have breakfast",
+    "ES": "desayunar",
+    "categoryId": "ar verbs"
+  },
+  {
+    "id": 128,
+    "EN": "to walk",
+    "ES": "caminar",
+    "categoryId": "ar verbs"
+  },
+  {
+    "id": 129,
+    "EN": "to listen to",
+    "ES": "escuchar",
+    "categoryId": "ar verbs"
+  },
+  {
+    "id": 130,
+    "EN": "to need",
+    "ES": "necesitar",
+    "categoryId": "ar verbs"
+  },
+  {
+    "id": 131,
+    "EN": "to change",
+    "ES": "cambiar",
+    "categoryId": "ar verbs"
+  },
+  {
+    "id": 132,
+    "EN": "to take / to drink",
+    "ES": "tomar",
+    "categoryId": "ar verbs"
+  },
+  {
+    "id": 133,
+    "EN": "to go down",
+    "ES": "bajar",
+    "categoryId": "ar verbs"
+  },
+  {
+    "id": 134,
+    "EN": "to ask",
+    "ES": "preguntar",
+    "categoryId": "ar verbs"
+  },
+  {
+    "id": 135,
+    "EN": "to wash",
+    "ES": "lavar",
+    "categoryId": "ar verbs"
+  },
+  {
+    "id": 136,
+    "EN": "to get in",
+    "ES": "entrar",
+    "categoryId": "ar verbs"
+  },
+  {
+    "id": 137,
+    "EN": "to wait",
+    "ES": "esperar",
+    "categoryId": "ar verbs"
+  },
+  {
+    "id": 138,
+    "EN": "to win",
+    "ES": "ganar",
+    "categoryId": "ar verbs"
+  },
+  {
+    "id": 139,
+    "EN": "to look",
+    "ES": "mirar",
+    "categoryId": "ar verbs"
+  },
+  {
+    "id": 140,
+    "EN": "to finish",
+    "ES": "terminar",
+    "categoryId": "ar verbs"
+  },
+  {
+    "id": 141,
+    "EN": "to arrive",
+    "ES": "llegar",
+    "categoryId": "ar verbs"
+  },
+  {
+    "id": 142,
+    "EN": "to love",
+    "ES": "amar",
+    "categoryId": "ar verbs"
+  },
+  {
+    "id": 143,
+    "EN": "to help",
+    "ES": "ayudar",
+    "categoryId": "ar verbs"
+  },
+  {
+    "id": 144,
+    "EN": "to adore",
+    "ES": "adorar",
+    "categoryId": "ar verbs"
+  },
+  {
+    "id": 145,
+    "EN": "to dance",
+    "ES": "bailar",
+    "categoryId": "ar verbs"
+  },
+  {
+    "id": 146,
+    "EN": "to sing",
+    "ES": "cantar",
+    "categoryId": "ar verbs"
+  },
+  {
+    "id": 147,
+    "EN": "to have dinner",
+    "ES": "cenar",
+    "categoryId": "ar verbs"
+  },
+  {
+    "id": 148,
+    "EN": "to cook",
+    "ES": "cocinar",
+    "categoryId": "ar verbs"
+  },
+  {
+    "id": 149,
+    "EN": "to care",
+    "ES": "cuidar",
+    "categoryId": "ar verbs"
+  },
+  {
+    "id": 150,
+    "EN": "to decorate",
+    "ES": "decorar",
+    "categoryId": "ar verbs"
+  },
+  {
+    "id": 151,
+    "EN": "to draw",
+    "ES": "dibujar",
+    "categoryId": "ar verbs"
+  },
+  {
+    "id": 152,
+    "EN": "to send",
+    "ES": "enviar",
+    "categoryId": "ar verbs"
+  },
+  {
+    "id": 153,
+    "EN": "to study",
+    "ES": "estudiar",
+    "categoryId": "ar verbs"
+  },
+  {
+    "id": 154,
+    "EN": "to throw",
+    "ES": "lanzar",
+    "categoryId": "ar verbs"
+  },
+  {
+    "id": 155,
+    "EN": "to fill up",
+    "ES": "llenar",
+    "categoryId": "ar verbs"
+  },
+  {
+    "id": 156,
+    "EN": "to carry / to wear",
+    "ES": "llevar",
+    "categoryId": "ar verbs"
+  },
+  {
+    "id": 157,
+    "EN": "to clean",
+    "ES": "limpiar",
+    "categoryId": "ar verbs"
+  },
+  {
+    "id": 158,
+    "EN": "to kill",
+    "ES": "matar",
+    "categoryId": "ar verbs"
+  },
+  {
+    "id": 159,
+    "EN": "to swim",
+    "ES": "nadar",
+    "categoryId": "ar verbs"
+  },
+  {
+    "id": 160,
+    "EN": "to hate",
+    "ES": "odiar",
+    "categoryId": "ar verbs"
+  },
+  {
+    "id": 161,
+    "EN": "to forget",
+    "ES": "olvidar",
+    "categoryId": "ar verbs"
+  },
+  {
+    "id": 162,
+    "EN": "to practice",
+    "ES": "practicar",
+    "categoryId": "ar verbs"
+  },
+  {
+    "id": 163,
+    "EN": "to iron",
+    "ES": "planchar",
+    "categoryId": "ar verbs"
+  },
+  {
+    "id": 164,
+    "EN": "to paint",
+    "ES": "pintar",
+    "categoryId": "ar verbs"
+  },
+  {
+    "id": 165,
+    "EN": "to work",
+    "ES": "trabajar",
+    "categoryId": "ar verbs"
+  },
+  {
+    "id": 166,
+    "EN": "to travel",
+    "ES": "viajar",
+    "categoryId": "ar verbs"
+  },
+  {
+    "id": 167,
+    "EN": "personal details",
+    "ES": "los datos personales",
+    "categoryId": "personal details"
+  },
+  {
+    "id": 168,
+    "EN": "name",
+    "ES": "el nombre",
+    "categoryId": "personal details"
+  },
+  {
+    "id": 169,
+    "EN": "surname",
+    "ES": "el apellido",
+    "categoryId": "personal details"
+  },
+  {
+    "id": 170,
+    "EN": "age",
+    "ES": "la edad",
+    "categoryId": "personal details"
+  },
+  {
+    "id": 171,
+    "EN": "marital status",
+    "ES": "el estado civil",
+    "categoryId": "personal details"
+  },
+  {
+    "id": 172,
+    "EN": "nationality",
+    "ES": "la nacionalidad",
+    "categoryId": "personal details"
+  },
+  {
+    "id": 173,
+    "EN": "country",
+    "ES": "el país",
+    "categoryId": "personal details"
+  },
+  {
+    "id": 174,
+    "EN": "address",
+    "ES": "la dirección",
+    "categoryId": "personal details"
+  },
+  {
+    "id": 175,
+    "EN": "city",
+    "ES": "la ciudad",
+    "categoryId": "personal details"
+  },
+  {
+    "id": 176,
+    "EN": "floor",
+    "ES": "el piso",
+    "categoryId": "personal details"
+  },
+  {
+    "id": 177,
+    "EN": "staircase",
+    "ES": "la escalera",
+    "categoryId": "personal details"
+  },
+  {
+    "id": 178,
+    "EN": "postcode",
+    "ES": "el código postal",
+    "categoryId": "personal details"
+  },
+  {
+    "id": 179,
+    "EN": "e-mail",
+    "ES": "el correo electrónico",
+    "categoryId": "personal details"
+  },
+  {
+    "id": 180,
+    "EN": "phone number",
+    "ES": "el número de teléfono",
+    "categoryId": "personal details"
+  },
+  {
+    "id": 181,
+    "EN": "form",
+    "ES": "el formulario",
+    "categoryId": "personal details"
+  },
+  {
+    "id": 182,
+    "EN": "to sign",
+    "ES": "firmar",
+    "categoryId": "personal details"
+  },
+  {
+    "id": 183,
+    "EN": "signature",
+    "ES": "la firma",
+    "categoryId": "personal details"
+  },
+  {
+    "id": 184,
+    "EN": "to pay",
+    "ES": "pagar",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 185,
+    "EN": "to pay in cash",
+    "ES": "pagar en efectivo",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 186,
+    "EN": "to pay by card",
+    "ES": "pagar con tarjeta",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 187,
+    "EN": "to go shopping",
+    "ES": "ir de compras",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 188,
+    "EN": "to sell",
+    "ES": "vender",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 189,
+    "EN": "size",
+    "ES": "la talla",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 190,
+    "EN": "small size",
+    "ES": "la talla pequeña",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 191,
+    "EN": "medium size",
+    "ES": "la talla mediana",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 192,
+    "EN": "large size",
+    "ES": "la talla grande",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 193,
+    "EN": "another size",
+    "ES": "otra talla",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 194,
+    "EN": "to try on",
+    "ES": "probar",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 195,
+    "EN": "changing rooms",
+    "ES": "los probadores",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 196,
+    "EN": "client",
+    "ES": "el cliente / la clienta",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 197,
+    "EN": "till / cash register",
+    "ES": "la caja",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 198,
+    "EN": "queue",
+    "ES": "la cola",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 199,
+    "EN": "pretty",
+    "ES": "bonito / bonita",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 200,
+    "EN": "ugly",
+    "ES": "feo / fea",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 201,
+    "EN": "expensive",
+    "ES": "caro / cara",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 202,
+    "EN": "cheap",
+    "ES": "barato / barata",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 203,
+    "EN": "shirt",
+    "ES": "la camisa",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 204,
+    "EN": "t-shirt",
+    "ES": "la camiseta",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 205,
+    "EN": "trousers / pants",
+    "ES": "los pantalones",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 206,
+    "EN": "skirt",
+    "ES": "la falda",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 207,
+    "EN": "dress",
+    "ES": "el vestido",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 208,
+    "EN": "shoes",
+    "ES": "los zapatos",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 209,
+    "EN": "handbag",
+    "ES": "el bolso",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 210,
+    "EN": "It fits me",
+    "ES": "Me queda bien",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 211,
+    "EN": "It doesn't fit me",
+    "ES": "Me queda mal",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 212,
+    "EN": "I am taking it",
+    "ES": "Me lo llevo",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 213,
+    "EN": "How much does it cost?",
+    "ES": "¿cuánto cuesta? / ¿cuánto vale?",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 214,
+    "EN": "It costs...",
+    "ES": "Cuesta... / Vale...",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 215,
+    "EN": "color",
+    "ES": "color",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 216,
+    "EN": "shoe size",
+    "ES": "número de zapato / número de pie",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 217,
+    "EN": "I prefer...",
+    "ES": "Prefiero...",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 218,
+    "EN": "lift / elevator",
+    "ES": "el ascensor",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 219,
+    "EN": "discount",
+    "ES": "el descuento",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 220,
+    "EN": "offer",
+    "ES": "la oferta",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 221,
+    "EN": "sales",
+    "ES": "las rebajas",
+    "categoryId": "shopping - clothes"
+  },
+  {
+    "id": 222,
+    "EN": "to learn",
+    "ES": "aprender",
+    "categoryId": "er verbs"
+  },
+  {
+    "id": 223,
+    "EN": "to drink",
+    "ES": "beber",
+    "categoryId": "er verbs"
+  },
+  {
+    "id": 224,
+    "EN": "to eat",
+    "ES": "comer",
+    "categoryId": "er verbs"
+  },
+  {
+    "id": 225,
+    "EN": "to understand",
+    "ES": "comprender",
+    "categoryId": "er verbs"
+  },
+  {
+    "id": 226,
+    "EN": "to run",
+    "ES": "correr",
+    "categoryId": "er verbs"
+  },
+  {
+    "id": 227,
+    "EN": "must",
+    "ES": "deber",
+    "categoryId": "er verbs"
+  },
+  {
+    "id": 228,
+    "EN": "to hide",
+    "ES": "esconder",
+    "categoryId": "er verbs"
+  },
+  {
+    "id": 229,
+    "EN": "to choose",
+    "ES": "escoger",
+    "categoryId": "er verbs"
+  },
+  {
+    "id": 230,
+    "EN": "to read",
+    "ES": "leer",
+    "categoryId": "er verbs"
+  },
+  {
+    "id": 231,
+    "EN": "to put (in)",
+    "ES": "meter (en)",
+    "categoryId": "er verbs"
+  },
+  {
+    "id": 232,
+    "EN": "to promise",
+    "ES": "prometer",
+    "categoryId": "er verbs"
+  },
+  {
+    "id": 233,
+    "EN": "to respond",
+    "ES": "responder",
+    "categoryId": "er verbs"
+  },
+  {
+    "id": 234,
+    "EN": "to break",
+    "ES": "romper",
+    "categoryId": "er verbs"
+  },
+  {
+    "id": 235,
+    "EN": "to fear",
+    "ES": "temer",
+    "categoryId": "er verbs"
+  },
+  {
+    "id": 236,
+    "EN": "to cough",
+    "ES": "toser",
+    "categoryId": "er verbs"
+  },
+  {
+    "id": 237,
+    "EN": "to sell",
+    "ES": "vender",
+    "categoryId": "er verbs"
+  },
+  {
+    "id": 238,
+    "EN": "to surprise",
+    "ES": "sorprender",
+    "categoryId": "er verbs"
+  },
+  {
+    "id": 239,
+    "EN": "to break / to tear",
+    "ES": "romper",
+    "categoryId": "er verbs"
+  },
+  {
+    "id": 240,
+    "EN": "to proceed",
+    "ES": "proceder",
+    "categoryId": "er verbs"
+  },
+  {
+    "id": 241,
+    "EN": "to switch on / to grab",
+    "ES": "prender",
+    "categoryId": "er verbs"
+  },
+  {
+    "id": 242,
+    "EN": "to possess / to hold",
+    "ES": "poseer",
+    "categoryId": "er verbs"
+  },
+  {
+    "id": 243,
+    "EN": "to exceed",
+    "ES": "exceder",
+    "categoryId": "er verbs"
+  },
+  {
+    "id": 244,
+    "EN": "to absorb",
+    "ES": "absorber",
+    "categoryId": "er verbs"
+  },
+  {
+    "id": 245,
+    "EN": "boat",
+    "ES": "el barco",
+    "categoryId": "revision"
+  },
+  {
+    "id": 246,
+    "EN": "truck",
+    "ES": "el camión",
+    "categoryId": "revision"
+  },
+  {
+    "id": 247,
+    "EN": "walking",
+    "ES": "andando",
+    "categoryId": "revision"
+  },
+  {
+    "id": 248,
+    "EN": "on foot",
+    "ES": "a pie",
+    "categoryId": "revision"
+  },
+  {
+    "id": 249,
+    "EN": "to call",
+    "ES": "llamar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 250,
+    "EN": "to buy",
+    "ES": "comprar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 251,
+    "EN": "to have breakfast",
+    "ES": "desayunar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 252,
+    "EN": "to walk",
+    "ES": "caminar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 253,
+    "EN": "to change",
+    "ES": "cambiar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 254,
+    "EN": "to take / to drink",
+    "ES": "tomar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 255,
+    "EN": "to go down",
+    "ES": "bajar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 256,
+    "EN": "to wash",
+    "ES": "lavar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 257,
+    "EN": "to wait",
+    "ES": "esperar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 258,
+    "EN": "to win",
+    "ES": "ganar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 259,
+    "EN": "to arrive",
+    "ES": "llegar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 260,
+    "EN": "to have dinner",
+    "ES": "cenar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 261,
+    "EN": "to care",
+    "ES": "cuidar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 262,
+    "EN": "to draw",
+    "ES": "dibujar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 263,
+    "EN": "to send",
+    "ES": "enviar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 264,
+    "EN": "to throw",
+    "ES": "lanzar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 265,
+    "EN": "to fill up",
+    "ES": "llenar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 266,
+    "EN": "to carry / to wear",
+    "ES": "llevar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 267,
+    "EN": "to clean",
+    "ES": "limpiar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 268,
+    "EN": "to hate",
+    "ES": "odiar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 269,
+    "EN": "to forget",
+    "ES": "olvidar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 270,
+    "EN": "to iron",
+    "ES": "planchar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 271,
+    "EN": "to travel",
+    "ES": "viajar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 272,
+    "EN": "boat",
+    "ES": "el barco",
+    "categoryId": "revision"
+  },
+  {
+    "id": 273,
+    "EN": "truck",
+    "ES": "el camión",
+    "categoryId": "revision"
+  },
+  {
+    "id": 274,
+    "EN": "walking",
+    "ES": "andando",
+    "categoryId": "revision"
+  },
+  {
+    "id": 275,
+    "EN": "on foot",
+    "ES": "a pie",
+    "categoryId": "revision"
+  },
+  {
+    "id": 276,
+    "EN": "to call",
+    "ES": "llamar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 277,
+    "EN": "to buy",
+    "ES": "comprar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 278,
+    "EN": "to have breakfast",
+    "ES": "desayunar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 279,
+    "EN": "to walk",
+    "ES": "caminar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 280,
+    "EN": "to change",
+    "ES": "cambiar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 281,
+    "EN": "to take / to drink",
+    "ES": "tomar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 282,
+    "EN": "to go down",
+    "ES": "bajar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 283,
+    "EN": "to wash",
+    "ES": "lavar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 284,
+    "EN": "to wait",
+    "ES": "esperar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 285,
+    "EN": "to win",
+    "ES": "ganar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 286,
+    "EN": "to arrive",
+    "ES": "llegar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 287,
+    "EN": "to have dinner",
+    "ES": "cenar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 288,
+    "EN": "to care",
+    "ES": "cuidar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 289,
+    "EN": "to draw",
+    "ES": "dibujar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 290,
+    "EN": "to send",
+    "ES": "enviar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 291,
+    "EN": "to throw",
+    "ES": "lanzar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 292,
+    "EN": "to fill up",
+    "ES": "llenar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 293,
+    "EN": "to carry / to wear",
+    "ES": "llevar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 294,
+    "EN": "to clean",
+    "ES": "limpiar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 295,
+    "EN": "to hate",
+    "ES": "odiar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 296,
+    "EN": "to forget",
+    "ES": "olvidar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 297,
+    "EN": "to iron",
+    "ES": "planchar",
+    "categoryId": "revision"
+  },
+  {
+    "id": 298,
+    "EN": "to travel",
+    "ES": "viajar",
+    "categoryId": "revision"
+  }
 ]

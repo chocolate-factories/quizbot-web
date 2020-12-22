@@ -9,30 +9,25 @@ import removeAccents from 'remove-accents'
  * the provided translation and the vocabulary.
  */
 const checkTranslation = (
-    translation: string,
-    correctTranslation: string,
-    ignoreSpecialLetters = false
+  translation: string,
+  correctTranslation: string,
+  ignoreSpecialLetters = false
 ): boolean => {
-    if (ignoreSpecialLetters) {
-        translation = removeAccents(translation)
-        correctTranslation = removeAccents(correctTranslation)
-    }
-    return matchTranslation(translation, correctTranslation)
+  if (ignoreSpecialLetters) {
+    translation = removeAccents(translation)
+    correctTranslation = removeAccents(correctTranslation)
+  }
+  return matchTranslation(translation, correctTranslation)
 }
 
-const matchTranslation = (
-    translation: string,
-    correctTranslation: string
-): boolean => {
-    if (translation === correctTranslation) {
-        return true
-    } else if (correctTranslation.includes('/')) {
-        const correctTranslations = correctTranslation.split('/')
-        return correctTranslations.some(
-            (corrTrans) => corrTrans.trim() === translation
-        )
-    }
-    return false
+const matchTranslation = (translation: string, correctTranslation: string): boolean => {
+  if (translation === correctTranslation) {
+    return true
+  } else if (correctTranslation.includes('/')) {
+    const correctTranslations = correctTranslation.split('/')
+    return correctTranslations.some((corrTrans) => corrTrans.trim() === translation)
+  }
+  return false
 }
 
 export default checkTranslation
