@@ -1123,12 +1123,6 @@
     "categoryId": "shopping_clothes"
   },
   {
-    "id": 188,
-    "EN": "to sell",
-    "ES": "vender",
-    "categoryId": "shopping_clothes"
-  },
-  {
     "id": 189,
     "EN": "size",
     "ES": "la talla",
@@ -1396,12 +1390,6 @@
     "id": 233,
     "EN": "to respond",
     "ES": "responder",
-    "categoryId": "er_verbs"
-  },
-  {
-    "id": 234,
-    "EN": "to break",
-    "ES": "romper",
     "categoryId": "er_verbs"
   },
   {
