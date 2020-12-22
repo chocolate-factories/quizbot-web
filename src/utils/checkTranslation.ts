@@ -11,22 +11,21 @@ import removeAccents from 'remove-accents'
 const checkTranslation = (
   translation: string,
   correctTranslation: string,
-  ignoreSpecialLetters: boolean = false
+  ignoreSpecialLetters = false
 ): boolean => {
-
   if (ignoreSpecialLetters) {
     translation = removeAccents(translation)
     correctTranslation = removeAccents(correctTranslation)
   }
-  return matchTranslation(translation, correctTranslation)  
+  return matchTranslation(translation, correctTranslation)
 }
 
 const matchTranslation = (translation: string, correctTranslation: string): boolean => {
   if (translation === correctTranslation) {
     return true
-  } else if (correctTranslation.includes("/")) {
-    const correctTranslations = correctTranslation.split("/")
-    return correctTranslations.some(corrTrans => corrTrans.trim() === translation)
+  } else if (correctTranslation.includes('/')) {
+    const correctTranslations = correctTranslation.split('/')
+    return correctTranslations.some((corrTrans) => corrTrans.trim() === translation)
   }
   return false
 }

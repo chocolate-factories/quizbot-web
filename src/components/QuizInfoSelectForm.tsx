@@ -7,7 +7,7 @@ import {
   InputLabel,
   MenuItem,
   Select,
-  TextField,
+  TextField
 } from '@material-ui/core'
 import { getCategories } from '../services/categoryService'
 import { Category, Language, LanguageChoice } from '../types'
@@ -23,12 +23,8 @@ const QuizInfoSelectForm: React.FC = () => {
   const defaultNumberOfRevisionWords = 0;
 
   const [selectedCategories, setSelectedCategories] = useState<string[]>([])
-  const [selectedLanguage, setSelectedLanguage] = useState<LanguageChoice>(
-    languageChoices[0]
-  );
-  const [numberOfWords, setNumberOfWords] = useState<number>(
-    defaultNumberOfWords
-  );
+  const [selectedLanguage, setSelectedLanguage] = useState<LanguageChoice>(languageChoices[0])
+  const [numberOfWords, setNumberOfWords] = useState<number>(defaultNumberOfWords)
   const [quizInProgress, setQuizInProgress] = useState(false)
   const [numberOfRevisionWords, setNumberOfRevisionWords] = useState<number>(
     defaultNumberOfRevisionWords
@@ -45,14 +41,14 @@ const QuizInfoSelectForm: React.FC = () => {
   return (
     <div>
       {quizInProgress ? (
-        <Quiz 
+        <Quiz
           numberOfWords={numberOfWords}
           numberOfRevisionWords={numberOfRevisionWords}
           sourceLang={selectedLanguage.sourceLang}
           destinationLang={selectedLanguage.destinationLang}
           newGame={() => setQuizInProgress(false)}
           categories={selectedCategories}
-        />        
+        />
       ) : (
       <Box
         style={{
@@ -118,7 +114,7 @@ const QuizInfoSelectForm: React.FC = () => {
       </Box>
       )}
     </div>
-  );
-};
+  )
+}
 
-export default QuizInfoSelectForm;
+export default QuizInfoSelectForm

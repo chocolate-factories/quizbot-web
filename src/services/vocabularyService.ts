@@ -7,6 +7,6 @@ export const getWords = (): VocabEntry[] => {
 }
 
 export const getWordsInCategories = (categories: string[]): VocabEntry[] => {
-    let words: VocabEntry[] = JSON.parse(JSON.stringify(vocabularies))
-    return words.filter((vocabEntry) => categories.includes(vocabEntry.categoryId))
+  const words: VocabEntry[] = JSON.parse(JSON.stringify(vocabularies))
+  return words.filter((vocabEntry) => categories.includes(vocabEntry.categoryId))
 }

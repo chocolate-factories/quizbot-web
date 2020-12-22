@@ -13,7 +13,6 @@ const generateWordList = (
     numberOfWords: number,
     categories: string[] = [],
     forbiddenWords: VocabEntry[] = [],
-    numberOfRevisionWords?: number,
   ): VocabEntry[] => {
   const generatedWords = [];
   // Deep copy, otherwise we will delete from vocabularies.
@@ -23,7 +22,6 @@ const generateWordList = (
   } else {
     candidateWords = getWords()
   }
-  let revisionWords = getWordsInCategories(['revision'])
   candidateWords = candidateWords.filter(vocabEntry => !forbiddenWords.some(forbiddenWord => forbiddenWord.id === vocabEntry.id))
   if (numberOfWords > candidateWords.length) {
     numberOfWords = candidateWords.length
