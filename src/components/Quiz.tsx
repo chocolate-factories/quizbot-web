@@ -35,7 +35,6 @@ interface QuizParams {
   sourceLang: Language
   destinationLang: Language
   newGame: () => void
-  numberOfRevisionWords: number
   categories?: string[]
 }
 
@@ -44,13 +43,9 @@ const Quiz: React.FC<QuizParams> = ({
   sourceLang,
   destinationLang,
   newGame,
-  numberOfRevisionWords,
   categories = []
 }) => {
   const [words, setWords] = useState(() => generateWordList(numberOfWords, categories))
-  const [revisionWords, setRevisionWords] = useState(() =>
-    generateWordList(numberOfRevisionWords, ['revision'])
-  )
   const [currentRound, setCurrentRound] = useState(0)
   const [score, setScore] = useState(0)
   const [inputState, setInputState] = useState(TranslationInputState.input)
@@ -58,7 +53,7 @@ const Quiz: React.FC<QuizParams> = ({
   const [correctTranslation, setCorrectTranslation] = useState('')
   const [replaceSpecialCharacters, setReplaceSpecialCharacters] = useState(false)
 
-  const gameOver = currentRound === words.length + revisionWords.length
+  const gameOver = currentRound === words.length
 
   const validate = (input: string) => {
     const translation = currentWord[destinationLang]
@@ -76,11 +71,6 @@ const Quiz: React.FC<QuizParams> = ({
     setInputState(TranslationInputState.input)
     if (currentRound + 1 < words.length) {
       setCurrentWord(words[currentRound + 1])
-    } else {
-      const revisionRound = currentRound + 1 - words.length
-      if (revisionRound < revisionWords.length) {
-        setCurrentWord(revisionWords[revisionRound])
-      }
     }
     setCurrentRound(currentRound + 1)
   }
@@ -92,9 +82,7 @@ const Quiz: React.FC<QuizParams> = ({
 
   const restart = () => {
     const newWords = generateWordList(numberOfWords, categories, words)
-    const newRevisionWords = generateWordList(numberOfRevisionWords, ['revision'], revisionWords)
     setWords(newWords)
-    setRevisionWords(newRevisionWords)
     setCurrentRound(0)
     setScore(0)
     setInputState(TranslationInputState.input)

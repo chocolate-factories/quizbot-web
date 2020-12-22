@@ -29,15 +29,11 @@ const QuizInfoSelectForm: React.FC = () => {
     }
   ]
   const defaultNumberOfWords = 15
-  const defaultNumberOfRevisionWords = 0
 
   const [selectedCategories, setSelectedCategories] = useState<string[]>([])
   const [selectedLanguage, setSelectedLanguage] = useState<LanguageChoice>(languageChoices[0])
   const [numberOfWords, setNumberOfWords] = useState<number>(defaultNumberOfWords)
   const [quizInProgress, setQuizInProgress] = useState(false)
-  const [numberOfRevisionWords, setNumberOfRevisionWords] = useState<number>(
-    defaultNumberOfRevisionWords
-  )
 
   const submitForm = () => {
     if (numberOfWords < 1) {
@@ -52,7 +48,6 @@ const QuizInfoSelectForm: React.FC = () => {
       {quizInProgress ? (
         <Quiz
           numberOfWords={numberOfWords}
-          numberOfRevisionWords={numberOfRevisionWords}
           sourceLang={selectedLanguage.sourceLang}
           destinationLang={selectedLanguage.destinationLang}
           newGame={() => setQuizInProgress(false)}
@@ -103,16 +98,6 @@ const QuizInfoSelectForm: React.FC = () => {
               type="number"
               value={numberOfWords}
               onChange={(e: any) => setNumberOfWords(e.target.value)}
-              variant="outlined"
-              style={{ width: '130px' }}
-            />
-          </FormControl>
-          <FormControl variant="outlined">
-            <TextField
-              label="Number of revision words"
-              type="number"
-              value={numberOfRevisionWords}
-              onChange={(e: any) => setNumberOfRevisionWords(e.target.value)}
               variant="outlined"
               style={{ width: '130px' }}
             />
