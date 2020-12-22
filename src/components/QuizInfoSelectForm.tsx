@@ -57,6 +57,7 @@ const QuizInfoSelectForm: React.FC = () => {
         <Box
           style={{
             display: 'flex',
+            justifyContent: 'space-between',
             paddingTop: '16px'
           }}
         >

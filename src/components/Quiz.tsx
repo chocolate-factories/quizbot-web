@@ -93,7 +93,7 @@ const Quiz: React.FC<QuizParams> = ({
   return (
     <>
       {!gameOver ? (
-        <Box textAlign={'center'}>
+        <Box>
           <Box
             style={{
               margin: '16px 0',

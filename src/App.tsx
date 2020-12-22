@@ -4,7 +4,7 @@ import QuizInfoSelectForm from './components/QuizInfoSelectForm'
 
 const App: React.FC = () => {
   return (
-    <Container style={{ paddingTop: '50px' }}>
+    <Container maxWidth="sm" style={{ paddingTop: '50px' }}>
       <Typography variant="h3" gutterBottom>
         Spanish Quizbot 🤖
       </Typography>
