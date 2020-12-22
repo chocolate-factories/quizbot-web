@@ -9,7 +9,12 @@ import { getWords, getWordsInCategories } from '../services/vocabularyService'
  * generates from the whole vocabulary.
  * @param forbiddenWords defaults to empty list. If a list of words is provided, those words will not be generated.
  */
-const generateWordList = (numberOfWords: number, categories: string[] = [], forbiddenWords: VocabEntry[] = []): VocabEntry[] => {
+const generateWordList = (
+    numberOfWords: number,
+    categories: string[] = [],
+    forbiddenWords: VocabEntry[] = [],
+    numberOfRevisionWords?: number,
+  ): VocabEntry[] => {
   const generatedWords = [];
   // Deep copy, otherwise we will delete from vocabularies.
   let candidateWords;
@@ -18,6 +23,7 @@ const generateWordList = (numberOfWords: number, categories: string[] = [], forb
   } else {
     candidateWords = getWords()
   }
+  let revisionWords = getWordsInCategories(['revision'])
   candidateWords = candidateWords.filter(vocabEntry => !forbiddenWords.some(forbiddenWord => forbiddenWord.id === vocabEntry.id))
   if (numberOfWords > candidateWords.length) {
     numberOfWords = candidateWords.length

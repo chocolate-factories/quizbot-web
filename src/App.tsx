@@ -4,7 +4,7 @@ import QuizInfoSelectForm from './components/QuizInfoSelectForm';
 
 function App() {
   return (
-    <Container maxWidth="sm" style={{ paddingTop: '50px' }}>
+    <Container style={{ paddingTop: '50px' }}>
       <Typography variant="h3" gutterBottom>
         Spanish Quizbot 🤖
       </Typography>
