@@ -6,7 +6,7 @@ describe('vocabularyService', () => {
       const words = getWords()
       expect(words).not.toBeNull
     })
-    it('return not return any revision words', () => {
+    it('not return any revision words', () => {
       const words = getWords()
       expect(words.some((word) => word.categoryId === 'revision')).toEqual(false)
     })
