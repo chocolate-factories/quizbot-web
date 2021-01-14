@@ -1,28 +1,17 @@
 import React, { useState } from 'react'
-import { Box, Button, Checkbox, TextField } from '@material-ui/core'
+import {
+  Box,
+  Button,
+  Card,
+  CardContent,
+  FormControlLabel,
+  Switch,
+  TextField,
+  Typography
+} from '@material-ui/core'
 import { Language } from '../types'
 import checkTranslation from '../utils/checkTranslation'
 import generateWordList from '../utils/generateWordList'
-
-const InputField: React.FC<{ onSubmit: (arg0: string) => void }> = ({ onSubmit }) => {
-  const [input, setInput] = useState('')
-  return (
-    <>
-      <TextField
-        id="standard-basic"
-        label="Type your translation"
-        variant="outlined"
-        value={input}
-        onChange={(event) => setInput(event.target.value)}
-        size={'small'}
-      />
-      <Button color="primary" variant="contained" onClick={() => onSubmit(input)}>
-        {' '}
-        Check{' '}
-      </Button>
-    </>
-  )
-}
 
 enum TranslationInputState {
   input,
@@ -49,9 +38,10 @@ const Quiz: React.FC<QuizParams> = ({
   const [currentRound, setCurrentRound] = useState(0)
   const [score, setScore] = useState(0)
   const [inputState, setInputState] = useState(TranslationInputState.input)
+  const [input, setInput] = useState('')
   const [currentWord, setCurrentWord] = useState(words[0])
   const [correctTranslation, setCorrectTranslation] = useState('')
-  const [replaceSpecialCharacters, setReplaceSpecialCharacters] = useState(false)
+  const [replaceSpecialCharacters, setReplaceSpecialCharacters] = useState(true)
 
   const gameOver = currentRound === words.length
 
@@ -69,6 +59,7 @@ const Quiz: React.FC<QuizParams> = ({
 
   const nextWord = () => {
     setInputState(TranslationInputState.input)
+    setInput('')
     if (currentRound + 1 < words.length) {
       setCurrentWord(words[currentRound + 1])
     }
@@ -94,86 +85,93 @@ const Quiz: React.FC<QuizParams> = ({
     <>
       {!gameOver ? (
         <Box>
-          <Box
-            style={{
-              margin: '16px 0',
-              fontSize: '20px'
-            }}
-          >
-            {currentWord[sourceLang]}
-          </Box>
-          {inputState === TranslationInputState.input && (
-            <Box>
-              <InputField onSubmit={validate} />
-              <Box
-                style={{
-                  display: 'flex',
-                  justifyContent: 'center'
-                }}
-              >
-                <p> Ignore special characters? </p>
-                <Checkbox
-                  checked={replaceSpecialCharacters}
-                  onChange={() => setReplaceSpecialCharacters(!replaceSpecialCharacters)}
+          <Card>
+            <CardContent>
+              <Typography variant="h6" gutterBottom>
+                {currentWord[sourceLang]}
+              </Typography>
+              <Box marginBottom="10px">
+                <FormControlLabel
+                  control={
+                    <Switch
+                      size="small"
+                      checked={replaceSpecialCharacters}
+                      onChange={() => setReplaceSpecialCharacters(!replaceSpecialCharacters)}
+                    />
+                  }
+                  label="Ignore special characters"
                 />
+                <Box style={{ display: 'flex', marginTop: '12px' }}>
+                  <TextField
+                    label="Type your answer"
+                    variant="outlined"
+                    value={input}
+                    disabled={inputState !== TranslationInputState.input}
+                    onChange={(event) => setInput(event.target.value)}
+                    size="small"
+                    style={{ marginRight: '10px' }}
+                  />
+                  <Button
+                    color="primary"
+                    variant="contained"
+                    disabled={inputState !== TranslationInputState.input}
+                    onClick={() => validate(input)}
+                  >
+                    Check{' '}
+                  </Button>
+                </Box>
               </Box>
-            </Box>
-          )}
-          {inputState === TranslationInputState.validation_correct && (
-            <Box>
-              <Button color="primary" variant="contained" onClick={() => nextWord()}>
-                Next word
-              </Button>
-              <Box
-                style={{
-                  color: 'green',
-                  fontSize: '20px'
-                }}
-              >
-                <p>Correct! {correctTranslation}</p>
-              </Box>
-            </Box>
-          )}
-          {inputState === TranslationInputState.validation_error && (
-            <Box>
-              <Button color="primary" variant="contained" onClick={() => nextWord()}>
-                Next word
-              </Button>
-              <Box
-                style={{
-                  color: 'red',
-                  fontSize: '20px'
-                }}
-              >
-                <p>Error! {correctTranslation}</p>
-              </Box>
-              <Button color="primary" variant="outlined" onClick={() => overrule()}>
-                Overrule
-              </Button>
-            </Box>
-          )}
-          <Box
-            style={{
-              fontSize: '20px'
-            }}
-          >
-            <p>
-              Score: {score} /{' '}
-              {inputState === TranslationInputState.input ? currentRound : currentRound + 1}
-            </p>
-          </Box>
+              {inputState === TranslationInputState.validation_correct && (
+                <Box>
+                  <Typography variant="body1" color="primary" gutterBottom>
+                    Correct! {correctTranslation}
+                  </Typography>
+                  <Button color="primary" variant="contained" onClick={() => nextWord()}>
+                    Next word
+                  </Button>
+                </Box>
+              )}
+              {inputState === TranslationInputState.validation_error && (
+                <Box>
+                  <Typography variant="body1" color="secondary" gutterBottom>
+                    Incorrect! {correctTranslation}
+                  </Typography>
+                  <Button
+                    color="primary"
+                    variant="outlined"
+                    onClick={() => overrule()}
+                    style={{ marginRight: '10px' }}
+                  >
+                    Overrule
+                  </Button>
+                  <Button color="primary" variant="contained" onClick={() => nextWord()}>
+                    Next word
+                  </Button>
+                </Box>
+              )}
+            </CardContent>
+          </Card>
+          <Typography variant="h6" style={{ marginTop: '10px' }}>
+            Score: {score} /{' '}
+            {inputState === TranslationInputState.input ? currentRound : currentRound + 1}
+          </Typography>
         </Box>
       ) : (
         <Box>
-          <p>
+          <Typography variant="h6" gutterBottom>
             {' '}
             Game Over! {score} / {currentRound}{' '}
-          </p>
-          <Button color="primary" variant="contained" onClick={() => newGame()}>
-            New game
-          </Button>
-          <Button color="primary" variant="contained" onClick={() => restart()}>
+          </Typography>
+          <Button
+            color="primary"
+            variant="outlined"
+            onClick={() => restart()}
+            style={{ marginRight: '10px' }}
+          >
             Restart
+          </Button>
+          <Button color="primary" variant="contained" onClick={() => newGame()}>
+            New category
           </Button>
         </Box>
       )}
