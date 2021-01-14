@@ -10,9 +10,9 @@ import {
 } from '@material-ui/core'
 import { getCategories } from '../services/categoryService'
 import { Category, Language, LanguageChoice } from '../types'
-import Quiz from './Quiz'
+import QuizSession from './QuizSession'
 
-const QuizInfoSelectForm: React.FC = () => {
+const QuizSelectForm: React.FC = () => {
   const categories: Category[] = getCategories()
   const languageChoices: LanguageChoice[] = [
     {
@@ -46,7 +46,7 @@ const QuizInfoSelectForm: React.FC = () => {
   return (
     <div>
       {quizInProgress ? (
-        <Quiz
+        <QuizSession
           numberOfWords={numberOfWords}
           sourceLang={selectedLanguage.sourceLang}
           destinationLang={selectedLanguage.destinationLang}
@@ -112,4 +112,4 @@ const QuizInfoSelectForm: React.FC = () => {
   )
 }
 
-export default QuizInfoSelectForm
+export default QuizSelectForm

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Typography } from '@material-ui/core'
-import QuizInfoSelectForm from './components/QuizInfoSelectForm'
+import QuizSelectForm from './components/QuizSelectForm'
 
 const App: React.FC = () => {
   return (
@@ -8,7 +8,7 @@ const App: React.FC = () => {
       <Typography variant="h3" gutterBottom>
         Spanish Quizbot 🤖
       </Typography>
-      <QuizInfoSelectForm />
+      <QuizSelectForm />
     </Container>
   )
 }

@@ -27,7 +27,7 @@ interface QuizParams {
   categories?: string[]
 }
 
-const Quiz: React.FC<QuizParams> = ({
+const QuizSession: React.FC<QuizParams> = ({
   numberOfWords,
   sourceLang,
   destinationLang,
@@ -179,4 +179,4 @@ const Quiz: React.FC<QuizParams> = ({
   )
 }
 
-export default Quiz
+export default QuizSession
