@@ -9,7 +9,7 @@ import {
   TextField,
   Typography
 } from '@material-ui/core'
-import { Language } from '../types'
+import { getLanguageChoice } from '../services/languageService'
 import checkTranslation from '../utils/checkTranslation'
 import generateWordList from '../utils/generateWordList'
 
@@ -21,16 +21,14 @@ enum TranslationInputState {
 
 interface QuizParams {
   numberOfWords: number
-  sourceLang: Language
-  destinationLang: Language
+  languageId: string
   newGame: () => void
   categories?: string[]
 }
 
 const QuizSession: React.FC<QuizParams> = ({
   numberOfWords,
-  sourceLang,
-  destinationLang,
+  languageId,
   newGame,
   categories = []
 }) => {
@@ -42,6 +40,9 @@ const QuizSession: React.FC<QuizParams> = ({
   const [currentWord, setCurrentWord] = useState(words[0])
   const [correctTranslation, setCorrectTranslation] = useState('')
   const [replaceSpecialCharacters, setReplaceSpecialCharacters] = useState(true)
+
+  const languageChoice = getLanguageChoice(languageId)
+  const { sourceLang, destinationLang } = languageChoice
 
   const gameOver = currentRound === words.length
 

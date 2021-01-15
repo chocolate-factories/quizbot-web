@@ -9,13 +9,14 @@ import {
   TextField
 } from '@material-ui/core'
 import { getCategories } from '../services/categoryService'
-import { Category, Language, LanguageChoice } from '../types'
+import { Category, LanguageChoice } from '../types'
+import { getLanguageChoices } from '../services/languageService'
 
 interface QuizSelectParams {
   selectedCategories: string[]
   setSelectedCategories: Dispatch<SetStateAction<string[]>>
-  selectedLanguage: LanguageChoice
-  setSelectedLanguage: Dispatch<SetStateAction<LanguageChoice>>
+  selectedLanguage: string
+  setSelectedLanguage: Dispatch<SetStateAction<string>>
   numberOfWords: number
   setNumberOfWords: Dispatch<SetStateAction<number>>
   submitForm: () => void
@@ -31,20 +32,7 @@ const QuizSelectForm: React.FC<QuizSelectParams> = ({
   submitForm
 }) => {
   const categories: Category[] = getCategories()
-  const languageChoices: LanguageChoice[] = [
-    {
-      id: 'es_en',
-      language: 'Spanish to English',
-      sourceLang: Language.Spanish,
-      destinationLang: Language.English
-    },
-    {
-      id: 'en_es',
-      language: 'English to Spanish',
-      sourceLang: Language.English,
-      destinationLang: Language.Spanish
-    }
-  ]
+  const languageChoices: LanguageChoice[] = getLanguageChoices()
 
   return (
     <Box
@@ -76,12 +64,12 @@ const QuizSelectForm: React.FC<QuizSelectParams> = ({
         <InputLabel htmlFor="language">Language</InputLabel>
         <Select
           native
-          onChange={(e: any) => setSelectedLanguage(JSON.parse(e.target.value))}
+          onChange={(e: any) => setSelectedLanguage(e.target.value)}
           label="language"
-          value={JSON.stringify(selectedLanguage)}
+          value={selectedLanguage}
         >
           {languageChoices.map((languageChoice) => (
-            <option key={languageChoice.id} value={JSON.stringify(languageChoice)}>
+            <option key={languageChoice.id} value={languageChoice.id}>
               {languageChoice.language}
             </option>
           ))}

@@ -1,27 +1,13 @@
 import React, { useState } from 'react'
-import { Language, LanguageChoice } from '../types'
 import QuizSelectForm from './QuizSelectForm'
 import QuizSession from './QuizSession'
 
 const Quiz: React.FC = () => {
-  const languageChoices: LanguageChoice[] = [
-    {
-      id: 'es_en',
-      language: 'Spanish to English',
-      sourceLang: Language.Spanish,
-      destinationLang: Language.English
-    },
-    {
-      id: 'en_es',
-      language: 'English to Spanish',
-      sourceLang: Language.English,
-      destinationLang: Language.Spanish
-    }
-  ]
+  const defaultLanguage = 'es_en'
   const defaultNumberOfWords = 15
 
   const [selectedCategories, setSelectedCategories] = useState<string[]>([])
-  const [selectedLanguage, setSelectedLanguage] = useState<LanguageChoice>(languageChoices[0])
+  const [selectedLanguage, setSelectedLanguage] = useState<string>(defaultLanguage)
   const [numberOfWords, setNumberOfWords] = useState<number>(defaultNumberOfWords)
   const [quizInProgress, setQuizInProgress] = useState(false)
 
@@ -38,8 +24,7 @@ const Quiz: React.FC = () => {
       {quizInProgress ? (
         <QuizSession
           numberOfWords={numberOfWords}
-          sourceLang={selectedLanguage.sourceLang}
-          destinationLang={selectedLanguage.destinationLang}
+          languageId={selectedLanguage}
           newGame={() => setQuizInProgress(false)}
           categories={selectedCategories}
         />
