@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { Dispatch, SetStateAction } from 'react'
 import {
   Box,
   Button,
@@ -10,9 +10,26 @@ import {
 } from '@material-ui/core'
 import { getCategories } from '../services/categoryService'
 import { Category, Language, LanguageChoice } from '../types'
-import QuizSession from './QuizSession'
 
-const QuizSelectForm: React.FC = () => {
+interface QuizSelectParams {
+  selectedCategories: string[]
+  setSelectedCategories: Dispatch<SetStateAction<string[]>>
+  selectedLanguage: LanguageChoice
+  setSelectedLanguage: Dispatch<SetStateAction<LanguageChoice>>
+  numberOfWords: number
+  setNumberOfWords: Dispatch<SetStateAction<number>>
+  submitForm: () => void
+}
+
+const QuizSelectForm: React.FC<QuizSelectParams> = ({
+  selectedCategories,
+  setSelectedCategories,
+  selectedLanguage,
+  setSelectedLanguage,
+  numberOfWords,
+  setNumberOfWords,
+  submitForm
+}) => {
   const categories: Category[] = getCategories()
   const languageChoices: LanguageChoice[] = [
     {
@@ -28,87 +45,62 @@ const QuizSelectForm: React.FC = () => {
       destinationLang: Language.Spanish
     }
   ]
-  const defaultNumberOfWords = 15
-
-  const [selectedCategories, setSelectedCategories] = useState<string[]>([])
-  const [selectedLanguage, setSelectedLanguage] = useState<LanguageChoice>(languageChoices[0])
-  const [numberOfWords, setNumberOfWords] = useState<number>(defaultNumberOfWords)
-  const [quizInProgress, setQuizInProgress] = useState(false)
-
-  const submitForm = () => {
-    if (numberOfWords < 1) {
-      alert('Need at least 1 word to start the quiz 🤖')
-    } else {
-      setQuizInProgress(true)
-    }
-  }
 
   return (
-    <div>
-      {quizInProgress ? (
-        <QuizSession
-          numberOfWords={numberOfWords}
-          sourceLang={selectedLanguage.sourceLang}
-          destinationLang={selectedLanguage.destinationLang}
-          newGame={() => setQuizInProgress(false)}
-          categories={selectedCategories}
-        />
-      ) : (
-        <Box
+    <Box
+      style={{
+        display: 'flex',
+        justifyContent: 'space-between',
+        paddingTop: '16px'
+      }}
+    >
+      <FormControl variant="outlined">
+        <InputLabel htmlFor="category">Category</InputLabel>
+        <Select
+          multiple
+          onChange={(e: any) => setSelectedCategories(e.target.value)}
+          label="category"
+          value={selectedCategories}
           style={{
-            display: 'flex',
-            justifyContent: 'space-between',
-            paddingTop: '16px'
+            width: '150px'
           }}
         >
-          <FormControl variant="outlined">
-            <InputLabel htmlFor="category">Category</InputLabel>
-            <Select
-              multiple
-              onChange={(e: any) => setSelectedCategories(e.target.value)}
-              label="category"
-              value={selectedCategories}
-              style={{
-                width: '150px'
-              }}
-            >
-              {categories.map((category) => (
-                <MenuItem key={category.id} value={category.id}>
-                  {category.name}
-                </MenuItem>
-              ))}
-            </Select>
-          </FormControl>
-          <FormControl variant="outlined">
-            <InputLabel htmlFor="language">Language</InputLabel>
-            <Select
-              native
-              onChange={(e: any) => setSelectedLanguage(JSON.parse(e.target.value))}
-              label="language"
-            >
-              {languageChoices.map((languageChoice) => (
-                <option key={languageChoice.id} value={JSON.stringify(languageChoice)}>
-                  {languageChoice.language}
-                </option>
-              ))}
-            </Select>
-          </FormControl>
-          <FormControl variant="outlined">
-            <TextField
-              label="Number of words"
-              type="number"
-              value={numberOfWords}
-              onChange={(e: any) => setNumberOfWords(e.target.value)}
-              variant="outlined"
-              style={{ width: '130px' }}
-            />
-          </FormControl>
-          <Button onClick={() => submitForm()} variant="outlined" color="primary">
-            Start
-          </Button>
-        </Box>
-      )}
-    </div>
+          {categories.map((category) => (
+            <MenuItem key={category.id} value={category.id}>
+              {category.name}
+            </MenuItem>
+          ))}
+        </Select>
+      </FormControl>
+      <FormControl variant="outlined">
+        <InputLabel htmlFor="language">Language</InputLabel>
+        <Select
+          native
+          onChange={(e: any) => setSelectedLanguage(JSON.parse(e.target.value))}
+          label="language"
+          value={JSON.stringify(selectedLanguage)}
+        >
+          {languageChoices.map((languageChoice) => (
+            <option key={languageChoice.id} value={JSON.stringify(languageChoice)}>
+              {languageChoice.language}
+            </option>
+          ))}
+        </Select>
+      </FormControl>
+      <FormControl variant="outlined">
+        <TextField
+          label="Number of words"
+          type="number"
+          value={numberOfWords}
+          onChange={(e: any) => setNumberOfWords(e.target.value)}
+          variant="outlined"
+          style={{ width: '130px' }}
+        />
+      </FormControl>
+      <Button onClick={() => submitForm()} variant="outlined" color="primary">
+        Start
+      </Button>
+    </Box>
   )
 }
 
