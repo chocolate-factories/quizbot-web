@@ -33,12 +33,13 @@ const QuizSelectForm: React.FC<QuizSelectParams> = ({
 }) => {
   const categories: Category[] = getCategories()
   const languageChoices: LanguageChoice[] = getLanguageChoices()
+  const inputStyle = { marginBottom: '12px' }
 
   return (
     <Box
       style={{
         display: 'flex',
-        justifyContent: 'space-between',
+        flexDirection: 'column',
         paddingTop: '16px'
       }}
     >
@@ -49,9 +50,7 @@ const QuizSelectForm: React.FC<QuizSelectParams> = ({
           onChange={(e: any) => setSelectedCategories(e.target.value)}
           label="category"
           value={selectedCategories}
-          style={{
-            width: '150px'
-          }}
+          style={inputStyle}
         >
           {categories.map((category) => (
             <MenuItem key={category.id} value={category.id}>
@@ -63,15 +62,15 @@ const QuizSelectForm: React.FC<QuizSelectParams> = ({
       <FormControl variant="outlined">
         <InputLabel htmlFor="language">Language</InputLabel>
         <Select
-          native
           onChange={(e: any) => setSelectedLanguage(e.target.value)}
           label="language"
           value={selectedLanguage}
+          style={inputStyle}
         >
           {languageChoices.map((languageChoice) => (
-            <option key={languageChoice.id} value={languageChoice.id}>
+            <MenuItem key={languageChoice.id} value={languageChoice.id}>
               {languageChoice.language}
-            </option>
+            </MenuItem>
           ))}
         </Select>
       </FormControl>
@@ -82,7 +81,7 @@ const QuizSelectForm: React.FC<QuizSelectParams> = ({
           value={numberOfWords}
           onChange={(e: any) => setNumberOfWords(e.target.value)}
           variant="outlined"
-          style={{ width: '130px' }}
+          style={inputStyle}
         />
       </FormControl>
       <Button onClick={() => submitForm()} variant="outlined" color="primary">
